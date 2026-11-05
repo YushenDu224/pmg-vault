@@ -1,0 +1,120 @@
+{
+  "version": "v008-palette",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3656,
+      "sha256": "a05afb454e41ad2160e494b4cd40e7131db7ff4a33bb9b18b67cc224cfe81374"
+    },
+    {
+      "path": "assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    },
+    {
+      "path": "docs/DESIGN.md",
+      "bytes": 4154,
+      "sha256": "b8a14f0b4c8014c557d218fcd4398bc6323d8467bd146b1e5e3022dd5d7700f9"
+    },
+    {
+      "path": "docs/FORMAT.md",
+      "bytes": 2769,
+      "sha256": "e5879d141844c5b82b9e609b6ee140154fa4f7ba61ba4f293f4a557631ae74bc"
+    },
+    {
+      "path": "docs/IMPLEMENTED.md",
+      "bytes": 1105,
+      "sha256": "d45ad49363fe7cafda640b10a69c823c7e65f172d1224e5270e32be6f03020f2"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 1461,
+      "sha256": "e61018decba015f6a04f312191d89bf99456c48d5d1b2da1db5d8d543faa5be4"
+    },
+    {
+      "path": "docs/ROLLBACK.md",
+      "bytes": 1523,
+      "sha256": "df13dcb9709b4f4e7d82b718ff3d0ba443099e9574c1891832229c024f2a06ae"
+    },
+    {
+      "path": "docs/UI-CHANGE.md",
+      "bytes": 550,
+      "sha256": "4d5f899ba87ca7d0e408bf4b8efd3a916fc6bcc9a3f1b6441c7dac5512256dc2"
+    },
+    {
+      "path": "examples/8077301-001.json",
+      "bytes": 1093,
+      "sha256": "ebfb5c3811e5291487afae56edc050b8adca6682750fa06415f9cc2048795cfc"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5967,
+      "sha256": "3afbcf5a9b616900c2878a739e2915ff4aa45aa2e8faaed18953757a9553cefa"
+    },
+    {
+      "path": "launch.mjs",
+      "bytes": 2055,
+      "sha256": "27da8325ba278401071b113b10944ccbb15bd2c60fae3b35d9b4e81e313c8dfa"
+    },
+    {
+      "path": "lib/archive.mjs",
+      "bytes": 7098,
+      "sha256": "6b9fa5a14212520729ba353a26d334a71d92fd65d7e533fd5790ff7b3a80d870"
+    },
+    {
+      "path": "lib/domain.mjs",
+      "bytes": 1949,
+      "sha256": "643d16d8e50b1a0786f13673905c03aed095ff4fe6aadf4488b93b4cb43d8f07"
+    },
+    {
+      "path": "lib/storage.mjs",
+      "bytes": 1329,
+      "sha256": "7f969cba84b9e8d26242079633c5efe643414ea30bca34a80f47ebada32cee41"
+    },
+    {
+      "path": "package.json",
+      "bytes": 183,
+      "sha256": "ae9b92cfc7098488509276b664480f2609e96a5f10b135c00ea69993e727827c"
+    },
+    {
+      "path": "scripts/build-sample.mjs",
+      "bytes": 2253,
+      "sha256": "b078698953638aae8d151d5806675f04e9f9fd8d4f41dcf3036f56252bc626c2"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1954,
+      "sha256": "0253e346deec0ca825433a0c8198dae5dfde0f04fe09a9e3fefbcbaa19c957de"
+    },
+    {
+      "path": "server.mjs",
+      "bytes": 1436,
+      "sha256": "95f24e350682d32b0dec0cd26784222de6a97b4d07e8186917d407f59afc0a4a"
+    },
+    {
+      "path": "tests/core.test.mjs",
+      "bytes": 2125,
+      "sha256": "a637d2b361ceb75d2ceefb6cceed92f7f861f29d0d53980c9ab5a157d907e92a"
+    },
+    {
+      "path": "ui/app.mjs",
+      "bytes": 13463,
+      "sha256": "d06d43b64e5977398184f52253770a86740b367942c2edadc7a5192b64598464"
+    },
+    {
+      "path": "ui/theme.css",
+      "bytes": 14405,
+      "sha256": "25da5dbd86b016d5cf85bd8ec1b5b1e583aab38954317304ffc0b0bfde5848e1"
+    },
+    {
+      "path": "启动PMG-Vault.cmd",
+      "bytes": 460,
+      "sha256": "486da0fa27f11db06c347243ad4fc38011adb2eee75fda319aefed4ee5be467e"
+    },
+    {
+      "path": "启动PMG库.cmd",
+      "bytes": 460,
+      "sha256": "486da0fa27f11db06c347243ad4fc38011adb2eee75fda319aefed4ee5be467e"
+    }
+  ]
+}
