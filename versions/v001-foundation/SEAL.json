@@ -1,0 +1,40 @@
+{
+  "version": "v001-foundation",
+  "files": [
+    {
+      "path": "docs/DESIGN.md",
+      "bytes": 4154,
+      "sha256": "b8a14f0b4c8014c557d218fcd4398bc6323d8467bd146b1e5e3022dd5d7700f9"
+    },
+    {
+      "path": "docs/FORMAT.md",
+      "bytes": 2769,
+      "sha256": "e5879d141844c5b82b9e609b6ee140154fa4f7ba61ba4f293f4a557631ae74bc"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 1461,
+      "sha256": "e61018decba015f6a04f312191d89bf99456c48d5d1b2da1db5d8d543faa5be4"
+    },
+    {
+      "path": "docs/ROLLBACK.md",
+      "bytes": 1523,
+      "sha256": "df13dcb9709b4f4e7d82b718ff3d0ba443099e9574c1891832229c024f2a06ae"
+    },
+    {
+      "path": "examples/8077301-001.json",
+      "bytes": 1093,
+      "sha256": "ebfb5c3811e5291487afae56edc050b8adca6682750fa06415f9cc2048795cfc"
+    },
+    {
+      "path": "package.json",
+      "bytes": 183,
+      "sha256": "ae9b92cfc7098488509276b664480f2609e96a5f10b135c00ea69993e727827c"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1954,
+      "sha256": "0253e346deec0ca825433a0c8198dae5dfde0f04fe09a9e3fefbcbaa19c957de"
+    }
+  ]
+}
