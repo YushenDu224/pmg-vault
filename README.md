@@ -4,7 +4,7 @@
 
 > AI 辅助开发 / AI-assisted development：本项目使用 OpenAI Codex 等 AI 工具辅助设计、编写和验证。功能以实际验收为准；项目独立开发，与 PMG 无隶属关系。
 
-[下载源码与所有历史副本](PMG-library-v010-source.zip) · [当前版本](CURRENT.md) · [采集使用说明](COLLECTOR.md)
+[浏览全部版本目录](versions) · [版本索引](VERSIONS.md) · [下载源码与所有历史副本](PMG-library-v010-source.zip) · [当前版本](CURRENT.md) · [采集使用说明](COLLECTOR.md)
 
 本机双击输出目录的“启动PMG库.cmd”。在其他电脑解压后进入 versions/v010-capture-fix，安装 Node.js 22+，运行 npm install、node node_modules/electron/install.js、node launch.mjs。源码包不捆绑 Electron 运行依赖。
 
