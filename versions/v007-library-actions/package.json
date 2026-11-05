@@ -1,0 +1,8 @@
+{
+  "name": "pmg-vault-foundation",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": { "check": "node scripts/check.mjs" },
+  "engines": { "node": ">=22" }
+}
