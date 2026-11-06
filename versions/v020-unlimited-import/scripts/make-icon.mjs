@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';import path from 'node:path';import {Resvg} from '@resvg/resvg-js';
+const root=path.resolve(import.meta.dirname,'..'),logo=(await fs.readFile(path.join(root,'assets/pmg-logo.svg'),'utf8')).replace(/<\?xml[^>]*>/,'');
+const inner=logo.replace(/<svg[^>]*>/,'').replace(/<\/svg>\s*$/,'');
+const svg='<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><rect x="5" y="5" width="246" height="246" rx="42" fill="#fff" stroke="#053d22" stroke-width="6"/><svg x="26" y="102" width="204" height="47" viewBox="0 0 147.84 34.08">'+inner+'</svg></svg>';
+const png=Buffer.from(new Resvg(svg).render().asPng()),header=Buffer.alloc(22);header.writeUInt16LE(1,2);header.writeUInt16LE(1,4);header[6]=0;header[7]=0;header.writeUInt16LE(1,10);header.writeUInt16LE(32,12);header.writeUInt32LE(png.length,14);header.writeUInt32LE(22,18);await fs.writeFile(path.join(root,'build/icon.ico'),Buffer.concat([header,png]));console.log('Generated PMG logo icon.');

@@ -1,0 +1,26 @@
+{
+  "exampleType": "verified-webpage-field-transcription-not-pmgx-archive",
+  "checkedOn": "2026-11-05",
+  "sourceUrl": "https://www.pmgnotes.cn/certlookup/8077301-001/67/",
+  "note": {
+    "certificationNumber": "8077301-001",
+    "name": "Hawaii - WWII Emergency Issue, $1 1935A Small Size",
+    "catalogNumber": "2300",
+    "serialNumber": "S51786112C",
+    "countryRaw": "US",
+    "countryCode": "US",
+    "grade": { "numeric": 67, "designations": ["EPQ"], "display": "67 EPQ" },
+    "gradingDate": "2020-10-13",
+    "noteYear": { "raw": "1935A", "start": 1935, "end": 1935, "basis": "description" },
+    "denomination": "1",
+    "currency": "USD",
+    "seal": "Brown",
+    "signatures": "Julian, Morgenthau",
+    "comments": "Exceptional Paper Quality",
+    "userTags": []
+  },
+  "imageObservations": [
+    { "originalFilename": "PMG8077301-001_OBV.JPG", "sourceSideLabel": "Obverse", "visualSide": "reverse", "width": 3237, "height": 1740 },
+    { "originalFilename": "PMG8077301-001_REV.JPG", "sourceSideLabel": "Reverse", "visualSide": "obverse", "width": 3237, "height": 1740 }
+  ]
+}

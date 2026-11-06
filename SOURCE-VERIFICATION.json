@@ -1,12 +1,7 @@
 {
   "repository": "https://github.com/YushenDu224/pmg-vault",
-  "baseMainCommit": "e6b78089cdf8bb851e46ce0167e4798ce7111012",
-  "branch": "codex/image-groups-preview",
-  "stableVersion": "v016-separated-pages",
-  "statuses": {
-    "v017": "新功能 UI 设计第一版（已废除，仅供回档）",
-    "v018": "新功能 UI 设计第二版"
-  },
+  "stableVersion": "v020-unlimited-import",
+  "windowsVersion": "0.16.2",
   "versions": [
     {
       "version": "v001-foundation",
@@ -97,21 +92,29 @@
       "version": "v018-display-group",
       "files": 55,
       "sha256Verified": true
+    },
+    {
+      "version": "v019-windows-installer",
+      "files": 51,
+      "sha256Verified": true
+    },
+    {
+      "version": "v020-unlimited-import",
+      "files": 54,
+      "sha256Verified": true
     }
   ],
-  "totalSourceFiles": 568,
-  "currentFileSHA256": "df69185910a872e423d0e2eb4c65e33e80df2cb6327effffbe5d39beb9e89159",
-  "sourceCommit": "23cf7441822254af2366a855e975c241417d20b4",
-  "verifiedAt": "2026-11-06T17:05:25.442Z",
-  "method": "All 568 sealed source files match SHA256 and committed Git blobs. Remote main remains the original v016 commit; only the preview branch receives new commits.",
-  "remoteBranchVerified": true,
-  "defaultBranch": "main",
+  "totalSourceFiles": 673,
+  "method": "Every file and original seal was SHA256 verified locally; remote Git blob verification is recorded after publication.",
+  "testsPassed": 25,
+  "largeImportVerified": true,
+  "repeatedImportDeduplicated": true,
   "oldVersionsChanged": false,
-  "sourceIntegrityVerified": true,
   "excluded": [
-    "user collections",
-    "uploaded personal images",
+    "private collections",
+    "personal images",
     "browser sessions",
-    "node_modules"
+    "credentials",
+    "dependencies and build caches"
   ]
 }
