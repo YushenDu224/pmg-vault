@@ -1,8 +1,8 @@
 {
   "repository": "https://github.com/YushenDu224/pmg-vault",
-  "sourceCommit": "8995db0ff2383a129a6555947fd46371506f6c49",
-  "verifiedAt": "2026-11-06T15:02:40.947Z",
-  "method": "Remote main matched the verified local commit; every Git tree blob matched the exact bytes of all sealed version files.",
+  "sourceCommit": "0e80728d6f376acc51994156c4fffa0c3260d48c",
+  "verifiedAt": "2026-11-06T15:34:22.443Z",
+  "method": "Remote main matched local commit; every Git tree blob matched SHA256-verified sealed source.",
   "versions": [
     {
       "version": "v001-foundation",
@@ -78,9 +78,14 @@
       "version": "v015-inline-final",
       "files": 40,
       "sha256Verified": true
+    },
+    {
+      "version": "v016-separated-pages",
+      "files": 43,
+      "sha256Verified": true
     }
   ],
-  "totalFiles": 416,
+  "totalFiles": 459,
   "remoteBranchVerified": true,
   "oldVersionsChanged": false,
   "excluded": [
@@ -88,5 +93,15 @@
     "browser sessions",
     "node_modules"
   ],
-  "status": "all 416 source files match local sealed source"
+  "tests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "desktop": {
+    "version": "v016-separated-pages",
+    "library": "3 existing notes preserved; no capture workspace or statistics; SWI / 2017 verified",
+    "query": "separate page; startup query navigates here; native website hides on returning to library",
+    "onlineCapture": "Not rerun to completion: official human verification appeared; no CAPTCHA interaction"
+  },
+  "status": "all 459 source files match local sealed source"
 }
