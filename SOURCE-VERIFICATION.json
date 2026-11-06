@@ -1,4 +1,5 @@
 {
+  "repository": "https://github.com/YushenDu224/pmg-vault",
   "baseMainCommit": "e6b78089cdf8bb851e46ce0167e4798ce7111012",
   "branch": "codex/image-groups-preview",
   "stableVersion": "v016-separated-pages",
@@ -100,10 +101,13 @@
   ],
   "totalSourceFiles": 568,
   "currentFileSHA256": "df69185910a872e423d0e2eb4c65e33e80df2cb6327effffbe5d39beb9e89159",
-  "verifiedAt": "2026-11-06T17:04:11.362Z",
-  "method": "Every sealed source file and source copy was SHA256 verified locally. Remote publication is verified separately after push.",
-  "remoteBranchVerified": false,
+  "sourceCommit": "23cf7441822254af2366a855e975c241417d20b4",
+  "verifiedAt": "2026-11-06T17:05:25.442Z",
+  "method": "All 568 sealed source files match SHA256 and committed Git blobs. Remote main remains the original v016 commit; only the preview branch receives new commits.",
+  "remoteBranchVerified": true,
+  "defaultBranch": "main",
   "oldVersionsChanged": false,
+  "sourceIntegrityVerified": true,
   "excluded": [
     "user collections",
     "uploaded personal images",
