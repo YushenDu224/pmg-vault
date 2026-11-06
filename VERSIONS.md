@@ -1,6 +1,6 @@
 # 完整源码副本
 
-每一批代码修改在上一版本的完整副本中完成；旧版本保留 SEAL.json。
+每批代码修改复制上一版，封存后不修改。
 
 | 目录 | 文件数（含封存清单） |
 | --- | ---: |
@@ -19,5 +19,6 @@
 | [v013-unified-library](versions/v013-unified-library) | 39 |
 | [v014-inline-release](versions/v014-inline-release) | 39 |
 | [v015-inline-final](versions/v015-inline-final) | 40 |
+| [v016-separated-pages](versions/v016-separated-pages) | 43 |
 
-当前推荐 v015-inline-final。v011～v015 为本次一体化界面、完整字段和升级恢复的开发过程副本。回档前先备份藏品和 user-data。
+当前推荐 v016-separated-pages。v001～v015 完整保留，v016 基于 v015 分离查询与库，修复原始地区代码展示。回档前先备份个人藏品和 user-data。

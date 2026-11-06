@@ -1,15 +1,12 @@
 # PMG库
 
-当前推荐 v015：统一的桌面藏品管理与官网采集窗口。绿色“检验PMG评级”区展开官网、采集状态和完整结果；保留侧边栏入口。详情 11 项字段齐全，缺失项显示“不适用”，支持检索与升降序。
+当前推荐 **v016**。侧边栏“查询与采集”打开独立的内嵌官网采集页面；“库”打开搜索、筛选、排序与目录。两页切换不再叠在一起。卡片显示官网原始地区代码和年份（SWI / 2017），不展示币种占位。
 
-[当前版本](CURRENT.md) · [所有版本](VERSIONS.md) · [验收记录](versions/v015-inline-final/docs/INLINE-ACCEPTANCE.md)
+[当前版本与验收范围](CURRENT.md) · [全部源码副本](VERSIONS.md) · [改动说明](versions/v016-separated-pages/docs/SEPARATE-PAGES.md)
 
-初次运行：安装 Node.js 22+，进入 versions/v015-inline-final，执行 npm install、node node_modules/electron/install.js，然后双击启动脚本。已有本机安装已准备好依赖。
+运行：安装 Node.js 22+，进入 versions/v016-separated-pages，执行 npm install 和 node node_modules/electron/install.js，然后 node launch.mjs。已有本机安装双击原“启动PMG库.cmd”。
 
-官网需要验证时由用户操作，完成后继续采集。原图、JSON、PNG、HTML 和 MHTML 使用标准 ZIP 容器 PMGX 保存。源码包不包含个人藏品、浏览器会话或 node_modules。
+[下载 v016 源码及全部历史副本](PMG-library-v016-source.zip)。源码不包含个人藏品、浏览器会话或依赖目录。原图、JSON、PNG、HTML、MHTML 使用 PMGX 标准 ZIP 容器保存。
 
 ## AI 辅助开发
 本项目使用 OpenAI Codex 辅助设计、编写与验证；功能以实际验收为准。独立项目，与 PMG 无隶属关系。应用界面不显示 AI 声明。
-
-
-[下载 v015 完整源码与全部历史副本](PMG-library-v015-source.zip)
