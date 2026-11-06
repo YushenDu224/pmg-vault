@@ -1,74 +1,92 @@
 {
   "repository": "https://github.com/YushenDu224/pmg-vault",
-  "verifiedAt": "2026-11-06T14:59:41.581Z",
-  "method": "Compared cloned existing versions and all staged version files against local sealed source; remote commit verification follows push.",
+  "sourceCommit": "8995db0ff2383a129a6555947fd46371506f6c49",
+  "verifiedAt": "2026-11-06T15:02:40.947Z",
+  "method": "Remote main matched the verified local commit; every Git tree blob matched the exact bytes of all sealed version files.",
   "versions": [
     {
       "version": "v001-foundation",
-      "files": 8
+      "files": 8,
+      "sha256Verified": true
     },
     {
       "version": "v002-app",
-      "files": 18
+      "files": 18,
+      "sha256Verified": true
     },
     {
       "version": "v003-validation",
-      "files": 18
+      "files": 18,
+      "sha256Verified": true
     },
     {
       "version": "v004-core",
-      "files": 20
+      "files": 20,
+      "sha256Verified": true
     },
     {
       "version": "v005-pmg-ui",
-      "files": 21
+      "files": 21,
+      "sha256Verified": true
     },
     {
       "version": "v006-launch-fix",
-      "files": 23
+      "files": 23,
+      "sha256Verified": true
     },
     {
       "version": "v007-library-actions",
-      "files": 24
+      "files": 24,
+      "sha256Verified": true
     },
     {
       "version": "v008-palette",
-      "files": 24
+      "files": 24,
+      "sha256Verified": true
     },
     {
       "version": "v009-collector",
-      "files": 32
+      "files": 32,
+      "sha256Verified": true
     },
     {
       "version": "v010-capture-fix",
-      "files": 33
+      "files": 33,
+      "sha256Verified": true
     },
     {
       "version": "v011-inline-workspace",
-      "files": 38
+      "files": 38,
+      "sha256Verified": true
     },
     {
       "version": "v012-complete-fields",
-      "files": 39
+      "files": 39,
+      "sha256Verified": true
     },
     {
       "version": "v013-unified-library",
-      "files": 39
+      "files": 39,
+      "sha256Verified": true
     },
     {
       "version": "v014-inline-release",
-      "files": 39
+      "files": 39,
+      "sha256Verified": true
     },
     {
       "version": "v015-inline-final",
-      "files": 40
+      "files": 40,
+      "sha256Verified": true
     }
   ],
   "totalFiles": 416,
-  "status": "all 416 source files match local sealed copies",
+  "remoteBranchVerified": true,
+  "oldVersionsChanged": false,
   "excluded": [
     "personal collections",
     "browser sessions",
     "node_modules"
-  ]
+  ],
+  "status": "all 416 source files match local sealed source"
 }
