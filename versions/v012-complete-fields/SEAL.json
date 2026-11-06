@@ -1,0 +1,195 @@
+{
+  "version": "v012-complete-fields",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1102,
+      "sha256": "3be90b22a26bf3390dd273001ef0c967252887341586c7eb5b3124191b7e8630"
+    },
+    {
+      "path": "assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    },
+    {
+      "path": "desktop/capture-engine.cjs",
+      "bytes": 9181,
+      "sha256": "9e2c3b3bd094ec72fb8169bd88ca93c24ca2cbc1632b03b5b7d8c3f9c9882c6d"
+    },
+    {
+      "path": "desktop/collector.html",
+      "bytes": 1860,
+      "sha256": "66b1525439e23e659ae13693e367c714c7609bb98dd151b511049329d8af7211"
+    },
+    {
+      "path": "desktop/collector.js",
+      "bytes": 643,
+      "sha256": "790ffe406a843eb022610118ec651c6659408fbebb59680e8aee8e388b8caf46"
+    },
+    {
+      "path": "desktop/main.cjs",
+      "bytes": 4466,
+      "sha256": "00d2c54d67c71bd8e4bd3b6af9d02099c896c57421a1e468c7bb0647f15c0082"
+    },
+    {
+      "path": "desktop/preload.cjs",
+      "bytes": 817,
+      "sha256": "20b651953f296c252a08ed8866564d7548a810e986004eb6f6491f414c5b4112"
+    },
+    {
+      "path": "desktop/view-policy.cjs",
+      "bytes": 988,
+      "sha256": "2f7564907a824277da86a57acd7ad6551f6681dab3b41e1d67970807380771fd"
+    },
+    {
+      "path": "docs/COLLECTOR.md",
+      "bytes": 3157,
+      "sha256": "19aca389b8e37ceccdc73866a33e5a8bf665f0d4b2cac83f5e8458c452682e58"
+    },
+    {
+      "path": "docs/DESIGN.md",
+      "bytes": 4154,
+      "sha256": "b8a14f0b4c8014c557d218fcd4398bc6323d8467bd146b1e5e3022dd5d7700f9"
+    },
+    {
+      "path": "docs/FORMAT.md",
+      "bytes": 2769,
+      "sha256": "e5879d141844c5b82b9e609b6ee140154fa4f7ba61ba4f293f4a557631ae74bc"
+    },
+    {
+      "path": "docs/IMPLEMENTED.md",
+      "bytes": 1105,
+      "sha256": "d45ad49363fe7cafda640b10a69c823c7e65f172d1224e5270e32be6f03020f2"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 1461,
+      "sha256": "e61018decba015f6a04f312191d89bf99456c48d5d1b2da1db5d8d543faa5be4"
+    },
+    {
+      "path": "docs/ROLLBACK.md",
+      "bytes": 1523,
+      "sha256": "df13dcb9709b4f4e7d82b718ff3d0ba443099e9574c1891832229c024f2a06ae"
+    },
+    {
+      "path": "docs/UI-CHANGE.md",
+      "bytes": 550,
+      "sha256": "4d5f899ba87ca7d0e408bf4b8efd3a916fc6bcc9a3f1b6441c7dac5512256dc2"
+    },
+    {
+      "path": "examples/8077301-001.json",
+      "bytes": 1093,
+      "sha256": "ebfb5c3811e5291487afae56edc050b8adca6682750fa06415f9cc2048795cfc"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7020,
+      "sha256": "8df89bf5fe2b385808b80d04bf3d34019d20185d46d3ce5ee66c14cc98766fe0"
+    },
+    {
+      "path": "launch.mjs",
+      "bytes": 2531,
+      "sha256": "948f1d2a9180eb2fdda3f694d7febe220262d0eabe748cd3e482f03a3bf93d78"
+    },
+    {
+      "path": "lib/archive.mjs",
+      "bytes": 7098,
+      "sha256": "6b9fa5a14212520729ba353a26d334a71d92fd65d7e533fd5790ff7b3a80d870"
+    },
+    {
+      "path": "lib/collection.mjs",
+      "bytes": 965,
+      "sha256": "05ec4faf5388e1edc09b489dd4df4ce8a438df3fcc8e10563ff5ccfa3f865cab"
+    },
+    {
+      "path": "lib/collector-service.mjs",
+      "bytes": 2705,
+      "sha256": "0d7a773e472fa801b1659df9c50e4c26f83bf539ab0005e41f69ca134021584a"
+    },
+    {
+      "path": "lib/domain.mjs",
+      "bytes": 2500,
+      "sha256": "5e03e6da41e1336a09f0af6c926924b50b97cc6979cd923a28f830d974fe22f2"
+    },
+    {
+      "path": "lib/pmg-adapter.mjs",
+      "bytes": 2481,
+      "sha256": "5010ac8113cb1564382da46c2aac53d7274c465411f913d9e25d95a3127280a2"
+    },
+    {
+      "path": "lib/storage.mjs",
+      "bytes": 1329,
+      "sha256": "7f969cba84b9e8d26242079633c5efe643414ea30bca34a80f47ebada32cee41"
+    },
+    {
+      "path": "package.json",
+      "bytes": 387,
+      "sha256": "26cf0b4119d43ee441518f63b50cfc4edb27bd8b71c0699df7c7af3b644cdf84"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 3515,
+      "sha256": "c9da694f8e60c0326af5ae0276ff942f9a207d57bc939e03461d8409d037e3c5"
+    },
+    {
+      "path": "scripts/build-sample.mjs",
+      "bytes": 2253,
+      "sha256": "b078698953638aae8d151d5806675f04e9f9fd8d4f41dcf3036f56252bc626c2"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1945,
+      "sha256": "09f7a557af0f9908fc5bb1c5acdaa14ed610409578bea89800e92d1dd89b8282"
+    },
+    {
+      "path": "server.mjs",
+      "bytes": 1598,
+      "sha256": "cc40669e8f2b1c9b3d6e32391083dedefbf51a1777fc61c932d51721a44ffe10"
+    },
+    {
+      "path": "tests/adapter.test.mjs",
+      "bytes": 1022,
+      "sha256": "91514ba2a741018a732fa8679ec974940ab339381f45e2e73dde2ed02e1b5354"
+    },
+    {
+      "path": "tests/core.test.mjs",
+      "bytes": 2125,
+      "sha256": "a637d2b361ceb75d2ceefb6cceed92f7f861f29d0d53980c9ab5a157d907e92a"
+    },
+    {
+      "path": "tests/metadata.test.mjs",
+      "bytes": 2116,
+      "sha256": "ead7914cd04216d2a4c9bf3bbc152e11a6a5313fa8c198fb8ac74104c4a1983d"
+    },
+    {
+      "path": "tests/workspace.test.mjs",
+      "bytes": 2206,
+      "sha256": "4cd8304ba9028d92afcfbfca756ff7505e9028fd68d59f8921f2e00bef75cc30"
+    },
+    {
+      "path": "ui/app.mjs",
+      "bytes": 13632,
+      "sha256": "e511381d61acd12555fdec627c35bf239d98772723fabdeb75c0f2a52e818ea8"
+    },
+    {
+      "path": "ui/capture-workspace.mjs",
+      "bytes": 7320,
+      "sha256": "74602ffc4592d2cbb67567b57bdc62ca9c7db10f35d92792ae6af8b784d5da9b"
+    },
+    {
+      "path": "ui/theme.css",
+      "bytes": 19492,
+      "sha256": "91db9769bda6fd4f922fe48f233d2e65a63425bf6161b1562d03c1b3c8db6e57"
+    },
+    {
+      "path": "启动PMG-Vault.cmd",
+      "bytes": 460,
+      "sha256": "486da0fa27f11db06c347243ad4fc38011adb2eee75fda319aefed4ee5be467e"
+    },
+    {
+      "path": "启动PMG库.cmd",
+      "bytes": 460,
+      "sha256": "486da0fa27f11db06c347243ad4fc38011adb2eee75fda319aefed4ee5be467e"
+    }
+  ]
+}

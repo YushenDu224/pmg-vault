@@ -1,17 +1,15 @@
-# PMG库 · 钞票查询与收藏档案
+# PMG库
 
-当前版本 v010：Windows 内嵌官网采集窗口、自动入库、官网绿白灰界面、检索筛选、升降序、PMGX 导入导出、软删除和恢复。
+当前推荐 v015：统一的桌面藏品管理与官网采集窗口。绿色“检验PMG评级”区展开官网、采集状态和完整结果；保留侧边栏入口。详情 11 项字段齐全，缺失项显示“不适用”，支持检索与升降序。
 
-> AI 辅助开发 / AI-assisted development：本项目使用 OpenAI Codex 等 AI 工具辅助设计、编写和验证。功能以实际验收为准；项目独立开发，与 PMG 无隶属关系。
+[当前版本](CURRENT.md) · [所有版本](VERSIONS.md) · [验收记录](versions/v015-inline-final/docs/INLINE-ACCEPTANCE.md)
 
-[浏览全部版本目录](versions) · [版本索引](VERSIONS.md) · [下载源码与所有历史副本](PMG-library-v010-source.zip) · [当前版本](CURRENT.md) · [采集使用说明](COLLECTOR.md)
+初次运行：安装 Node.js 22+，进入 versions/v015-inline-final，执行 npm install、node node_modules/electron/install.js，然后双击启动脚本。已有本机安装已准备好依赖。
 
-本机双击输出目录的“启动PMG库.cmd”。在其他电脑解压后进入 versions/v010-capture-fix，安装 Node.js 22+，运行 npm install、node node_modules/electron/install.js、node launch.mjs。源码包不捆绑 Electron 运行依赖。
+官网需要验证时由用户操作，完成后继续采集。原图、JSON、PNG、HTML 和 MHTML 使用标准 ZIP 容器 PMGX 保存。源码包不包含个人藏品、浏览器会话或 node_modules。
 
-中国站 8077301-001 / 67 已实测保存两张 3237×1740 官网原图、文字、整页截图、离线 HTML 和 MHTML。全球站有入口与适配测试，尚未完成在线验收。验证码需用户手动完成；网页改版可能需要更新适配器。尚无独立 exe 安装包和原生手机应用。
+## AI 辅助开发
+本项目使用 OpenAI Codex 辅助设计、编写与验证；功能以实际验收为准。独立项目，与 PMG 无隶属关系。应用界面不显示 AI 声明。
 
-PMGX 使用标准 ZIP 容器，内部为 JSON 和资源，便于跨端解析及独立取回文件。界面、主题、采集适配器与档案格式分离。浏览器 IndexedDB 保存藏品；完成档案和官网会话保存在本机 user-data。源码及仓库排除个人藏品、浏览器会话和依赖。
 
-每批代码修改先完整复制上一版本，旧版本封存。v009 是初次采集实现，v010 修复下载判定和重复实例问题。保留全部历史源代码副本。回滚前应导出藏品并备份 user-data。
-
-验证：在当前版本目录运行 node --test tests/*.test.mjs（7 项通过）。scripts/check.mjs 检查源码封存完整性，其沿用的基础版本尾部提示不代表当前功能状态。
+[下载 v015 完整源码与全部历史副本](PMG-library-v015-source.zip)

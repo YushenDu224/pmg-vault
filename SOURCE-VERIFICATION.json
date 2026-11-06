@@ -1,64 +1,74 @@
 {
   "repository": "https://github.com/YushenDu224/pmg-vault",
-  "verifiedAt": "2026-11-05T15:12:43.598Z",
+  "verifiedAt": "2026-11-06T14:59:41.581Z",
+  "method": "Compared cloned existing versions and all staged version files against local sealed source; remote commit verification follows push.",
   "versions": [
     {
       "version": "v001-foundation",
-      "files": 8,
-      "sha256Verified": true
+      "files": 8
     },
     {
       "version": "v002-app",
-      "files": 18,
-      "sha256Verified": true
+      "files": 18
     },
     {
       "version": "v003-validation",
-      "files": 18,
-      "sha256Verified": true
+      "files": 18
     },
     {
       "version": "v004-core",
-      "files": 20,
-      "sha256Verified": true
+      "files": 20
     },
     {
       "version": "v005-pmg-ui",
-      "files": 21,
-      "sha256Verified": true
+      "files": 21
     },
     {
       "version": "v006-launch-fix",
-      "files": 23,
-      "sha256Verified": true
+      "files": 23
     },
     {
       "version": "v007-library-actions",
-      "files": 24,
-      "sha256Verified": true
+      "files": 24
     },
     {
       "version": "v008-palette",
-      "files": 24,
-      "sha256Verified": true
+      "files": 24
     },
     {
       "version": "v009-collector",
-      "files": 32,
-      "sha256Verified": true
+      "files": 32
     },
     {
       "version": "v010-capture-fix",
-      "files": 33,
-      "sha256Verified": true
+      "files": 33
+    },
+    {
+      "version": "v011-inline-workspace",
+      "files": 38
+    },
+    {
+      "version": "v012-complete-fields",
+      "files": 39
+    },
+    {
+      "version": "v013-unified-library",
+      "files": 39
+    },
+    {
+      "version": "v014-inline-release",
+      "files": 39
+    },
+    {
+      "version": "v015-inline-final",
+      "files": 40
     }
   ],
-  "totalFiles": 221,
+  "totalFiles": 416,
+  "status": "all 416 source files match local sealed copies",
   "excluded": [
-    "node_modules",
-    "user-data",
+    "personal collections",
     "browser sessions",
-    "personal collections"
-  ],
-  "status": "all files match local sealed source"
+    "node_modules"
+  ]
 }
