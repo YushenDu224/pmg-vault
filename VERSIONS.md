@@ -22,3 +22,13 @@
 | [v016-separated-pages](versions/v016-separated-pages) | 43 |
 
 当前推荐 v016-separated-pages。v001～v015 完整保留，v016 基于 v015 分离查询与库，修复原始地区代码展示。回档前先备份个人藏品和 user-data。
+
+
+## 新功能 UI 设计（仅本预览分支）
+
+| 完整源码副本 | 文件数（含封存清单） | 状态 |
+| --- | ---: | --- |
+| [v017-image-groups-prototype](versions/v017-image-groups-prototype) | 54 | **新功能 UI 设计第一版（已废除，仅供回档）** |
+| [v018-display-group](versions/v018-display-group) | 55 | **新功能 UI 设计第二版，当前预览方案** |
+
+正式使用版本与推荐入口继续保持 v016。详见 [TESTING.md](TESTING.md)。

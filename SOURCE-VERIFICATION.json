@@ -1,8 +1,11 @@
 {
-  "repository": "https://github.com/YushenDu224/pmg-vault",
-  "sourceCommit": "0e80728d6f376acc51994156c4fffa0c3260d48c",
-  "verifiedAt": "2026-11-06T15:34:22.443Z",
-  "method": "Remote main matched local commit; every Git tree blob matched SHA256-verified sealed source.",
+  "baseMainCommit": "e6b78089cdf8bb851e46ce0167e4798ce7111012",
+  "branch": "codex/image-groups-preview",
+  "stableVersion": "v016-separated-pages",
+  "statuses": {
+    "v017": "新功能 UI 设计第一版（已废除，仅供回档）",
+    "v018": "新功能 UI 设计第二版"
+  },
   "versions": [
     {
       "version": "v001-foundation",
@@ -83,25 +86,28 @@
       "version": "v016-separated-pages",
       "files": 43,
       "sha256Verified": true
+    },
+    {
+      "version": "v017-image-groups-prototype",
+      "files": 54,
+      "sha256Verified": true
+    },
+    {
+      "version": "v018-display-group",
+      "files": 55,
+      "sha256Verified": true
     }
   ],
-  "totalFiles": 459,
-  "remoteBranchVerified": true,
+  "totalSourceFiles": 568,
+  "currentFileSHA256": "df69185910a872e423d0e2eb4c65e33e80df2cb6327effffbe5d39beb9e89159",
+  "verifiedAt": "2026-11-06T17:04:11.362Z",
+  "method": "Every sealed source file and source copy was SHA256 verified locally. Remote publication is verified separately after push.",
+  "remoteBranchVerified": false,
   "oldVersionsChanged": false,
   "excluded": [
-    "personal collections",
+    "user collections",
+    "uploaded personal images",
     "browser sessions",
     "node_modules"
-  ],
-  "tests": {
-    "passed": 17,
-    "failed": 0
-  },
-  "desktop": {
-    "version": "v016-separated-pages",
-    "library": "3 existing notes preserved; no capture workspace or statistics; SWI / 2017 verified",
-    "query": "separate page; startup query navigates here; native website hides on returning to library",
-    "onlineCapture": "Not rerun to completion: official human verification appeared; no CAPTCHA interaction"
-  },
-  "status": "all 459 source files match local sealed source"
+  ]
 }
