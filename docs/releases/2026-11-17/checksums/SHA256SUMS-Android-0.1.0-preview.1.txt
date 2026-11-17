@@ -1,0 +1,2 @@
+4bacfd292b6547d3cb0a044c76ead40f861019264d32dbb193dc334258aad4cb  PMG-Library-Android-0.1.0-preview.1.apk
+c54a907a26edd82406fe2fb3ce476ecf695797443e947b3a52fc8963903a9ab9  PMG-Library-Android-0.1.0-preview.1-source.zip

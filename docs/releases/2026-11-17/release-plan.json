@@ -1,0 +1,42 @@
+{
+  "commit": "b1bf492477a24288a28b966a4076da3f4d78c7c1",
+  "releases": [
+    {
+      "tag": "v0.18.0",
+      "name": "PMG库 0.18.0 · 当前电脑 Windows 安装版与完整源码历史",
+      "notes": "release-notes-v001/windows-0.18.0.md",
+      "prerelease": false,
+      "latest": true,
+      "assets": [
+        "dist/windows/PMG-Library-0.18.0-Setup-x64.exe",
+        "dist/source/PMG-Library-0.18.0-source.zip",
+        "dist/source/PMG-Library-All-Sources-2026-11-17.zip",
+        "dist/checksums/SHA256SUMS-0.18.0.txt"
+      ]
+    },
+    {
+      "tag": "v0.18.2-preview.1",
+      "name": "PMG库 Windows 0.18.2-preview.1 · 状态同步测试版",
+      "notes": "release-notes-v001/windows-0.18.2-preview.1.md",
+      "prerelease": true,
+      "latest": false,
+      "assets": [
+        "dist/windows/PMG-Library-0.18.2-preview.1-Setup-x64.exe",
+        "dist/source/PMG-Library-0.18.2-preview.1-source.zip",
+        "dist/checksums/SHA256SUMS-0.18.2-preview.1.txt"
+      ]
+    },
+    {
+      "tag": "android-v0.1.0-preview.1",
+      "name": "PMG库 Android 0.1.0-preview.1 · 可安装离线预览",
+      "notes": "release-notes-v001/android-0.1.0-preview.1.md",
+      "prerelease": true,
+      "latest": false,
+      "assets": [
+        "dist/android/PMG-Library-Android-0.1.0-preview.1.apk",
+        "dist/source/PMG-Library-Android-0.1.0-preview.1-source.zip",
+        "dist/checksums/SHA256SUMS-Android-0.1.0-preview.1.txt"
+      ]
+    }
+  ]
+}

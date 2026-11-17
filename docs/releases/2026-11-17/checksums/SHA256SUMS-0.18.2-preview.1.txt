@@ -1,0 +1,2 @@
+b2a25fe492d120f19f950235b1de6b0c8b2a55bfd0e870782decf6ec953347e8  PMG-Library-0.18.2-preview.1-Setup-x64.exe
+b7596ac927e780c740742724b51d816c9b011b97afce4361acc0831ddb7f980e  PMG-Library-0.18.2-preview.1-source.zip

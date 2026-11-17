@@ -1,0 +1,118 @@
+{
+  "commit": "b1bf492477a24288a28b966a4076da3f4d78c7c1",
+  "releases": [
+    {
+      "id": 447823961,
+      "tag": "v0.18.0",
+      "name": "PMG库 0.18.0 · 当前电脑 Windows 安装版与完整源码历史",
+      "url": "https://github.com/YushenDu224/pmg-vault/releases/tag/v0.18.0",
+      "target": "b1bf492477a24288a28b966a4076da3f4d78c7c1",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "id": 757005178,
+          "name": "PMG-Library-0.18.0-Setup-x64.exe",
+          "size": 124209676,
+          "digest": "sha256:2d937dbda08644b8b70afdc32779974ec6cad82634ab7c9dbacd7effc41fb9f8",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/v0.18.0/PMG-Library-0.18.0-Setup-x64.exe"
+        },
+        {
+          "id": 757006138,
+          "name": "PMG-Library-0.18.0-source.zip",
+          "size": 4592513,
+          "digest": "sha256:b4a36e94ed5c7b388e40561d729722da3172c5f610357fa9dacb48d931713e18",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/v0.18.0/PMG-Library-0.18.0-source.zip"
+        },
+        {
+          "id": 757006211,
+          "name": "PMG-Library-All-Sources-2026-11-17.zip",
+          "size": 76718593,
+          "digest": "sha256:fe36784e3b30e2f6b2d5bf5a2cf6b33952160eaf3791f9729459e7f2198ddc54",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/v0.18.0/PMG-Library-All-Sources-2026-11-17.zip"
+        },
+        {
+          "id": 757006630,
+          "name": "SHA256SUMS-0.18.0.txt",
+          "size": 300,
+          "digest": "sha256:7e965081e954eaeb5e95c258107a8438cba3500e97c9733f23c7157b4051fe26",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/v0.18.0/SHA256SUMS-0.18.0.txt"
+        }
+      ]
+    },
+    {
+      "id": 447824945,
+      "tag": "v0.18.2-preview.1",
+      "name": "PMG库 Windows 0.18.2-preview.1 · 状态同步测试版",
+      "url": "https://github.com/YushenDu224/pmg-vault/releases/tag/v0.18.2-preview.1",
+      "target": "b1bf492477a24288a28b966a4076da3f4d78c7c1",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "id": 757006803,
+          "name": "PMG-Library-0.18.2-preview.1-Setup-x64.exe",
+          "size": 124207933,
+          "digest": "sha256:b2a25fe492d120f19f950235b1de6b0c8b2a55bfd0e870782decf6ec953347e8",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/v0.18.2-preview.1/PMG-Library-0.18.2-preview.1-Setup-x64.exe"
+        },
+        {
+          "id": 757007600,
+          "name": "PMG-Library-0.18.2-preview.1-source.zip",
+          "size": 4620859,
+          "digest": "sha256:b7596ac927e780c740742724b51d816c9b011b97afce4361acc0831ddb7f980e",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/v0.18.2-preview.1/PMG-Library-0.18.2-preview.1-source.zip"
+        },
+        {
+          "id": 757007675,
+          "name": "SHA256SUMS-0.18.2-preview.1.txt",
+          "size": 215,
+          "digest": "sha256:8ac4abd3bc61e10a785be3741654b1a5ca0e96d886eaf350b81ba3ce1d22372d",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/v0.18.2-preview.1/SHA256SUMS-0.18.2-preview.1.txt"
+        }
+      ]
+    },
+    {
+      "id": 447825496,
+      "tag": "android-v0.1.0-preview.1",
+      "name": "PMG库 Android 0.1.0-preview.1 · 可安装离线预览",
+      "url": "https://github.com/YushenDu224/pmg-vault/releases/tag/android-v0.1.0-preview.1",
+      "target": "b1bf492477a24288a28b966a4076da3f4d78c7c1",
+      "draft": false,
+      "prerelease": true,
+      "assets": [
+        {
+          "id": 757007871,
+          "name": "PMG-Library-Android-0.1.0-preview.1-source.zip",
+          "size": 7080863,
+          "digest": "sha256:c54a907a26edd82406fe2fb3ce476ecf695797443e947b3a52fc8963903a9ab9",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/android-v0.1.0-preview.1/PMG-Library-Android-0.1.0-preview.1-source.zip"
+        },
+        {
+          "id": 757007813,
+          "name": "PMG-Library-Android-0.1.0-preview.1.apk",
+          "size": 1422662,
+          "digest": "sha256:4bacfd292b6547d3cb0a044c76ead40f861019264d32dbb193dc334258aad4cb",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/android-v0.1.0-preview.1/PMG-Library-Android-0.1.0-preview.1.apk"
+        },
+        {
+          "id": 757007953,
+          "name": "SHA256SUMS-Android-0.1.0-preview.1.txt",
+          "size": 219,
+          "digest": "sha256:ee46b3bbc0d4813b121466226f105e7506168499fd298f1403914b553e647a34",
+          "state": "uploaded",
+          "url": "https://github.com/YushenDu224/pmg-vault/releases/download/android-v0.1.0-preview.1/SHA256SUMS-Android-0.1.0-preview.1.txt"
+        }
+      ]
+    }
+  ]
+}
