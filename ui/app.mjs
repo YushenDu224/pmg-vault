@@ -58,7 +58,7 @@ async function acceptRecord(incoming, refresh = true) {
     }
   });
 }
-let captureWorkspace;const page=createPageNavigation({library:$('library'),capture:$('capture-workspace'),libraryNav:$('library-nav'),queryNav:$('query-nav'),title:$('title')},{onCapture:()=>captureWorkspace?.expand(true),onLeave:hideOfficialView,scrollTop:()=>window.scrollTo({top:0,behavior:'instant'})});
+let captureWorkspace;const page=createPageNavigation({library:$('library'),capture:$('capture-workspace'),libraryNav:$('library-nav'),queryNav:$('query-nav'),title:$('title')},{onCapture:()=>captureWorkspace?.expand(true),onLeave:hideOfficialView,scrollTop:()=>document.querySelector('.window-content').scrollTo({top:0,behavior:'instant'})});
 page(false);
 $('import').onclick=()=>$('import-file').click();$('import-file').onchange=e=>run(async()=>{
  const input=e.target,button=$('import');let count=0;button.disabled=true;button.textContent='正在导入…';

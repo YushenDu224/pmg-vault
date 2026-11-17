@@ -1,6 +1,6 @@
 {
   "name": "pmg-library",
-  "version": "0.18.0",
+  "version": "0.18.2-preview.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -16,7 +16,7 @@
     "node": ">=22"
   },
   "main": "desktop/main.cjs",
-  "description": "PMG库 · Windows 钞票档案与图片组管理",
+  "description": "PMG库 · Windows 状态同步测试版 · 仓库根目录开发入口",
   "author": "YushenDu224",
   "license": "UNLICENSED",
   "devDependencies": {
