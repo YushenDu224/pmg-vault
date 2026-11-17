@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "version": "v030-android-preview",
+  "appVersion": "0.1.0-preview.1",
+  "description": "Explicit public source allowlist; publish seal itself separately.",
+  "excluded": [
+    "private/**",
+    ".gradle/**",
+    "app/build/**",
+    "build/**",
+    "local.properties",
+    "**/*.jks",
+    "**/*.keystore"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 83,
+      "sha256": "ee4514b5347de07b4562a1664c91f761dd9015e0026e16e128952447b927debc"
+    },
+    {
+      "path": "app/build.gradle",
+      "bytes": 1104,
+      "sha256": "102b59428cee1f294d1a64e4780cc74e2a8ba56ef072d74d72b7344624561836"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "bytes": 902,
+      "sha256": "e936517e4b1b9463a9432050ac6bd1cf3ae711dd5e4cd734e873e7007fc48c2f"
+    },
+    {
+      "path": "app/src/main/assets/web/android-native.css",
+      "bytes": 436,
+      "sha256": "5e4d9e79104321b4ab0918749d356722831acd90af9e1d5e3997d5eb3a9fae3b"
+    },
+    {
+      "path": "app/src/main/assets/web/app.mjs",
+      "bytes": 19005,
+      "sha256": "83189e5d2219b3517fd88769d34dc17f107a489fee457fcf433bb067af84ba36"
+    },
+    {
+      "path": "app/src/main/assets/web/assets/back.jpg",
+      "bytes": 703198,
+      "sha256": "cfc0f8214315d7cce35b52dfe0698578c850817c12bd3829f6ec190a67ff5a1b"
+    },
+    {
+      "path": "app/src/main/assets/web/assets/front.jpg",
+      "bytes": 681244,
+      "sha256": "558ef45f9908589dbf35965146fc8e1158b50e2136a69bf19e90e06976f7b88b"
+    },
+    {
+      "path": "app/src/main/assets/web/assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    },
+    {
+      "path": "app/src/main/assets/web/index.html",
+      "bytes": 9506,
+      "sha256": "7efba33aba372cf409a44823275a1e269f60c58d23cae879b994aef284a5ff47"
+    },
+    {
+      "path": "app/src/main/assets/web/layout-v024.css",
+      "bytes": 8921,
+      "sha256": "f9713180e5dfe8fac88064b15d17e0aa07056514d318b4b9e86e4132b7f3e0f3"
+    },
+    {
+      "path": "app/src/main/assets/web/score-picker.mjs",
+      "bytes": 4616,
+      "sha256": "bafc8574549ce04a735b49a4d156f0f549c880409b081fc874caeae22eca93bc"
+    },
+    {
+      "path": "app/src/main/assets/web/style.css",
+      "bytes": 16928,
+      "sha256": "33471dba717692bef8f8ab3007d1948c4ddd1ed41d3d455d11cb8c8b72db067a"
+    },
+    {
+      "path": "app/src/main/java/io/github/yushendu224/pmglibrary/preview/MainActivity.java",
+      "bytes": 14668,
+      "sha256": "af57b9fe2b6cfdf8eb84eee8c517eebbec08bd989e8f92600eb7df5de3ba7fbd"
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "bytes": 511,
+      "sha256": "e853fbca591e4142c3ea0946a47fde38b18aae11a9e326c7923e122899c93679"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "bytes": 516,
+      "sha256": "0a235923633d7030d6eeb87132fceb98c387be7f4304cc8f23d40c2733b0b5f0"
+    },
+    {
+      "path": "build.gradle",
+      "bytes": 69,
+      "sha256": "8ebf0602839be8fd4c06f07a93e45da6b4a04444fa1b38df8b9def9c1b5c8032"
+    },
+    {
+      "path": "checkpoints/01-original-web/app.mjs",
+      "bytes": 17444,
+      "sha256": "8673dc7636182a06f9f57694982dbe3ff7dc71037c1e37c651bc8fa28b5f8222"
+    },
+    {
+      "path": "checkpoints/01-original-web/assets/back.jpg",
+      "bytes": 703198,
+      "sha256": "cfc0f8214315d7cce35b52dfe0698578c850817c12bd3829f6ec190a67ff5a1b"
+    },
+    {
+      "path": "checkpoints/01-original-web/assets/front.jpg",
+      "bytes": 681244,
+      "sha256": "558ef45f9908589dbf35965146fc8e1158b50e2136a69bf19e90e06976f7b88b"
+    },
+    {
+      "path": "checkpoints/01-original-web/assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    },
+    {
+      "path": "checkpoints/01-original-web/index.html",
+      "bytes": 9546,
+      "sha256": "83d5c73b6a7cee54e2930029a5e27539e7ac75abb9b327394614793fe2beafc8"
+    },
+    {
+      "path": "checkpoints/01-original-web/layout-v024.css",
+      "bytes": 8921,
+      "sha256": "f9713180e5dfe8fac88064b15d17e0aa07056514d318b4b9e86e4132b7f3e0f3"
+    },
+    {
+      "path": "checkpoints/01-original-web/score-picker.mjs",
+      "bytes": 4616,
+      "sha256": "bafc8574549ce04a735b49a4d156f0f549c880409b081fc874caeae22eca93bc"
+    },
+    {
+      "path": "checkpoints/01-original-web/style.css",
+      "bytes": 16928,
+      "sha256": "33471dba717692bef8f8ab3007d1948c4ddd1ed41d3d455d11cb8c8b72db067a"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/.gitignore",
+      "bytes": 83,
+      "sha256": "ee4514b5347de07b4562a1664c91f761dd9015e0026e16e128952447b927debc"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/build.gradle",
+      "bytes": 1104,
+      "sha256": "102b59428cee1f294d1a64e4780cc74e2a8ba56ef072d74d72b7344624561836"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/AndroidManifest.xml",
+      "bytes": 902,
+      "sha256": "e936517e4b1b9463a9432050ac6bd1cf3ae711dd5e4cd734e873e7007fc48c2f"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/assets/web/android-native.css",
+      "bytes": 436,
+      "sha256": "5e4d9e79104321b4ab0918749d356722831acd90af9e1d5e3997d5eb3a9fae3b"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/assets/web/app.mjs",
+      "bytes": 19005,
+      "sha256": "83189e5d2219b3517fd88769d34dc17f107a489fee457fcf433bb067af84ba36"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/assets/web/assets/back.jpg",
+      "bytes": 703198,
+      "sha256": "cfc0f8214315d7cce35b52dfe0698578c850817c12bd3829f6ec190a67ff5a1b"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/assets/web/assets/front.jpg",
+      "bytes": 681244,
+      "sha256": "558ef45f9908589dbf35965146fc8e1158b50e2136a69bf19e90e06976f7b88b"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/assets/web/assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/assets/web/index.html",
+      "bytes": 9506,
+      "sha256": "7efba33aba372cf409a44823275a1e269f60c58d23cae879b994aef284a5ff47"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/assets/web/layout-v024.css",
+      "bytes": 8921,
+      "sha256": "f9713180e5dfe8fac88064b15d17e0aa07056514d318b4b9e86e4132b7f3e0f3"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/assets/web/score-picker.mjs",
+      "bytes": 4616,
+      "sha256": "bafc8574549ce04a735b49a4d156f0f549c880409b081fc874caeae22eca93bc"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/assets/web/style.css",
+      "bytes": 16928,
+      "sha256": "33471dba717692bef8f8ab3007d1948c4ddd1ed41d3d455d11cb8c8b72db067a"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/java/io/github/yushendu224/pmglibrary/preview/MainActivity.java",
+      "bytes": 14261,
+      "sha256": "a63d0dfa13ba59ddfa2513c2c9ff83c3ab82181250842e6937fe5034bffd63ee"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/res/values-night/themes.xml",
+      "bytes": 578,
+      "sha256": "d24229cb6e801aae7c97eb9091350c0bc5d475fa01deb373e5afecce3113841c"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/app/src/main/res/values/themes.xml",
+      "bytes": 582,
+      "sha256": "fb227c9c1b7cae25698b297114d1663c1e2d4545d071b27ab24a0efef6532b4f"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/build.gradle",
+      "bytes": 69,
+      "sha256": "8ebf0602839be8fd4c06f07a93e45da6b4a04444fa1b38df8b9def9c1b5c8032"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/gradle.properties",
+      "bytes": 110,
+      "sha256": "cc38bc495ca4e4d7fa2fe7c9c1112f36af7a63fbf4fc3e7a088e215942403385"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/README.md",
+      "bytes": 3316,
+      "sha256": "6eda09ca19573243a9b3a81c390881e4161f40a57a25bde89cbb313717af58e3"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/scripts/build.ps1",
+      "bytes": 5502,
+      "sha256": "23d86e6924a20b626da026012f3f0b0aaad90ac3f26dde731e0ec237ffb264df"
+    },
+    {
+      "path": "checkpoints/02-before-build-fix/settings.gradle",
+      "bytes": 278,
+      "sha256": "aea7caf2184d5ed4a676569e54dabec78a669bc8a11e683561050e3a1dc5177d"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/.gitignore",
+      "bytes": 83,
+      "sha256": "ee4514b5347de07b4562a1664c91f761dd9015e0026e16e128952447b927debc"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/build.gradle",
+      "bytes": 1104,
+      "sha256": "102b59428cee1f294d1a64e4780cc74e2a8ba56ef072d74d72b7344624561836"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/AndroidManifest.xml",
+      "bytes": 902,
+      "sha256": "e936517e4b1b9463a9432050ac6bd1cf3ae711dd5e4cd734e873e7007fc48c2f"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/assets/web/android-native.css",
+      "bytes": 436,
+      "sha256": "5e4d9e79104321b4ab0918749d356722831acd90af9e1d5e3997d5eb3a9fae3b"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/assets/web/app.mjs",
+      "bytes": 19005,
+      "sha256": "83189e5d2219b3517fd88769d34dc17f107a489fee457fcf433bb067af84ba36"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/assets/web/assets/back.jpg",
+      "bytes": 703198,
+      "sha256": "cfc0f8214315d7cce35b52dfe0698578c850817c12bd3829f6ec190a67ff5a1b"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/assets/web/assets/front.jpg",
+      "bytes": 681244,
+      "sha256": "558ef45f9908589dbf35965146fc8e1158b50e2136a69bf19e90e06976f7b88b"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/assets/web/assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/assets/web/index.html",
+      "bytes": 9506,
+      "sha256": "7efba33aba372cf409a44823275a1e269f60c58d23cae879b994aef284a5ff47"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/assets/web/layout-v024.css",
+      "bytes": 8921,
+      "sha256": "f9713180e5dfe8fac88064b15d17e0aa07056514d318b4b9e86e4132b7f3e0f3"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/assets/web/score-picker.mjs",
+      "bytes": 4616,
+      "sha256": "bafc8574549ce04a735b49a4d156f0f549c880409b081fc874caeae22eca93bc"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/assets/web/style.css",
+      "bytes": 16928,
+      "sha256": "33471dba717692bef8f8ab3007d1948c4ddd1ed41d3d455d11cb8c8b72db067a"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/java/io/github/yushendu224/pmglibrary/preview/MainActivity.java",
+      "bytes": 14261,
+      "sha256": "a63d0dfa13ba59ddfa2513c2c9ff83c3ab82181250842e6937fe5034bffd63ee"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/res/values-night/themes.xml",
+      "bytes": 578,
+      "sha256": "d24229cb6e801aae7c97eb9091350c0bc5d475fa01deb373e5afecce3113841c"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/app/src/main/res/values/themes.xml",
+      "bytes": 582,
+      "sha256": "fb227c9c1b7cae25698b297114d1663c1e2d4545d071b27ab24a0efef6532b4f"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/build.gradle",
+      "bytes": 69,
+      "sha256": "8ebf0602839be8fd4c06f07a93e45da6b4a04444fa1b38df8b9def9c1b5c8032"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/gradle.properties",
+      "bytes": 110,
+      "sha256": "cc38bc495ca4e4d7fa2fe7c9c1112f36af7a63fbf4fc3e7a088e215942403385"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/README.md",
+      "bytes": 3316,
+      "sha256": "6eda09ca19573243a9b3a81c390881e4161f40a57a25bde89cbb313717af58e3"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/scripts/build.ps1",
+      "bytes": 5562,
+      "sha256": "b762a95517e924c91ced68ae1c123b7e259bf91c37a2754e9c8853790b1bc58f"
+    },
+    {
+      "path": "checkpoints/03-before-lint-fix/settings.gradle",
+      "bytes": 278,
+      "sha256": "aea7caf2184d5ed4a676569e54dabec78a669bc8a11e683561050e3a1dc5177d"
+    },
+    {
+      "path": "docs/verification/aapt-badging.txt",
+      "bytes": 742,
+      "sha256": "e9769bde59db9af36c966aff08f5647f6980cb12593f53bd74c24cc94144d2cd"
+    },
+    {
+      "path": "docs/verification/apksigner.txt",
+      "bytes": 995,
+      "sha256": "6221a230dc70bae2a017e5498dd1f578a960a5b6655acbc64159cef2e9b7b220"
+    },
+    {
+      "path": "docs/verification/build-verification.json",
+      "bytes": 489,
+      "sha256": "b8939e27c4c61d0832016b2dcbf10318458b52b85746cca0877b77931c0048d5"
+    },
+    {
+      "path": "docs/verification/lint-results-release.html",
+      "bytes": 60163,
+      "sha256": "6376c55dc8578741910881d6ff757209eaafe37ee38dfd4a9ec71728423686c2"
+    },
+    {
+      "path": "docs/verification/lint-results-release.xml",
+      "bytes": 5446,
+      "sha256": "c58d3cc042d9f9eef1766c8dae5f64e5bd5670a7d8e550170072d046ff3e4424"
+    },
+    {
+      "path": "docs/verification/static-verification.json",
+      "bytes": 671,
+      "sha256": "b16475426eab41b51afdfa29350f90e3e14ae9953d2052f0d33cba10fb757c0e"
+    },
+    {
+      "path": "docs/verification/zipalign.txt",
+      "bytes": 893,
+      "sha256": "a4e431461f6ee622e5d90f87b1eb1770c3c785da705e20a22f05e7ca6475d193"
+    },
+    {
+      "path": "gradle.properties",
+      "bytes": 110,
+      "sha256": "cc38bc495ca4e4d7fa2fe7c9c1112f36af7a63fbf4fc3e7a088e215942403385"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4151,
+      "sha256": "bd9dfd1dea469bcd81f9db5c5aa3b4076b7902a866b3dbecd147aacb10529d06"
+    },
+    {
+      "path": "scripts/build.ps1",
+      "bytes": 5562,
+      "sha256": "b762a95517e924c91ced68ae1c123b7e259bf91c37a2754e9c8853790b1bc58f"
+    },
+    {
+      "path": "scripts/seal-source.py",
+      "bytes": 1491,
+      "sha256": "39505867ccb910c83b56478fc13eaa1f10cb29db1d3ea695574f7d43a7fc9bc3"
+    },
+    {
+      "path": "scripts/verify-and-seal.ps1",
+      "bytes": 5317,
+      "sha256": "a7c718c195dd4c0e2349ef15c3f74f5821693a0ec8e9c46062fd02bd36b8c37a"
+    },
+    {
+      "path": "scripts/verify-package.py",
+      "bytes": 3269,
+      "sha256": "095e485c9863302d9e3c1cda98aa84c768946f1121e1239d36048aacb9e571da"
+    },
+    {
+      "path": "settings.gradle",
+      "bytes": 278,
+      "sha256": "aea7caf2184d5ed4a676569e54dabec78a669bc8a11e683561050e3a1dc5177d"
+    },
+    {
+      "path": "source-ui/app.mjs",
+      "bytes": 17444,
+      "sha256": "8673dc7636182a06f9f57694982dbe3ff7dc71037c1e37c651bc8fa28b5f8222"
+    },
+    {
+      "path": "source-ui/assets/back.jpg",
+      "bytes": 703198,
+      "sha256": "cfc0f8214315d7cce35b52dfe0698578c850817c12bd3829f6ec190a67ff5a1b"
+    },
+    {
+      "path": "source-ui/assets/front.jpg",
+      "bytes": 681244,
+      "sha256": "558ef45f9908589dbf35965146fc8e1158b50e2136a69bf19e90e06976f7b88b"
+    },
+    {
+      "path": "source-ui/assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    },
+    {
+      "path": "source-ui/index.html",
+      "bytes": 9546,
+      "sha256": "83d5c73b6a7cee54e2930029a5e27539e7ac75abb9b327394614793fe2beafc8"
+    },
+    {
+      "path": "source-ui/layout-v024.css",
+      "bytes": 8921,
+      "sha256": "f9713180e5dfe8fac88064b15d17e0aa07056514d318b4b9e86e4132b7f3e0f3"
+    },
+    {
+      "path": "source-ui/score-picker.mjs",
+      "bytes": 4616,
+      "sha256": "bafc8574549ce04a735b49a4d156f0f549c880409b081fc874caeae22eca93bc"
+    },
+    {
+      "path": "source-ui/style.css",
+      "bytes": 16928,
+      "sha256": "33471dba717692bef8f8ab3007d1948c4ddd1ed41d3d455d11cb8c8b72db067a"
+    }
+  ]
+}

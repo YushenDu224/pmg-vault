@@ -1,0 +1,13 @@
+/* Native Activity owns real status/navigation bars and system/IME insets. */
+.status-space { display: none; }
+:root { --safe-bottom: 0px; }
+.header-brand img, .about img { filter: none !important; }
+.preview-scope {
+  padding: 10px 15px;
+  background: var(--surface);
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.preview-scope strong { color: var(--ink); font-weight: 500; }

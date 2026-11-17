@@ -1,0 +1,358 @@
+{
+  "version": "v032-windows-preview-layout",
+  "appVersion": "0.18.2-preview.1",
+  "sourceVersion": "v029-windows-preview",
+  "sourceFiles": 64,
+  "sealSha256": "fb187bdf189d0012021b3935b8d3c86efab50db93e9ba54e8391c3d1c6ae8f2c",
+  "currentManifestFiles": 47,
+  "manifestSha256": "2e8cc0879c9b346e5104e7d9d39c3c7dd97c206719a914fca7e1530100da5b95",
+  "regressions": {
+    "passed": 41,
+    "failed": 0,
+    "executed": true,
+    "initialRestrictedRun": "39 passed, 2 fixture rename EPERM failures; unmodified retry with normal filesystem access passed 41/41"
+  },
+  "completeLiveCloudflareAcceptance": false,
+  "currentApplicationInstalledOrUpdated": false,
+  "changed": [
+    "README.md",
+    "electron-builder.cjs",
+    "package.json",
+    "scripts/check.mjs"
+  ],
+  "removed": [
+    "launch.mjs",
+    "lib/collector-service.mjs",
+    "scripts/build-sample.mjs",
+    "server.mjs",
+    "启动PMG-Vault.cmd",
+    "启动PMG库.cmd"
+  ],
+  "added": [
+    "SOURCE-MANIFEST.json",
+    "docs/REPOSITORY-LAYOUT.md"
+  ],
+  "preservedOriginalBytes": 58,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1838,
+      "sha256": "6571e8723924c5e791632a7021720a9dbdb0a6914edb216ca84b06094a7832f1"
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 7587,
+      "sha256": "2e8cc0879c9b346e5104e7d9d39c3c7dd97c206719a914fca7e1530100da5b95"
+    },
+    {
+      "path": "assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    },
+    {
+      "path": "build/icon.ico",
+      "bytes": 7146,
+      "sha256": "8d5bf627e1093be8be5627d1e8a2223d2450a21cf3e2aeb5a555b1dffde9cd0f"
+    },
+    {
+      "path": "build/installer.nsh",
+      "bytes": 220,
+      "sha256": "9cc667bbe0ec0c97c0dce1114fc62ad0accc4954c964ff2727a95624c7327fae"
+    },
+    {
+      "path": "desktop/browser-compat.cjs",
+      "bytes": 4867,
+      "sha256": "dfd5ded05ae6ef996f81fded10476cecd8234f71813c7570b47d33e5d7d957b6"
+    },
+    {
+      "path": "desktop/capture-engine.cjs",
+      "bytes": 9973,
+      "sha256": "0803b4884c88dca40150c8d74e1d68bc68bb897b9f2526631b0ae03a9faea36b"
+    },
+    {
+      "path": "desktop/collector.html",
+      "bytes": 1860,
+      "sha256": "66b1525439e23e659ae13693e367c714c7609bb98dd151b511049329d8af7211"
+    },
+    {
+      "path": "desktop/collector.js",
+      "bytes": 643,
+      "sha256": "790ffe406a843eb022610118ec651c6659408fbebb59680e8aee8e388b8caf46"
+    },
+    {
+      "path": "desktop/main.cjs",
+      "bytes": 7490,
+      "sha256": "2d8c0eee84a6a40ab1b613ad3b2f949d64172228ee7266db30fc9333c72adbc1"
+    },
+    {
+      "path": "desktop/preload.cjs",
+      "bytes": 1353,
+      "sha256": "b6e87a192e6ac94c35171152655cf460ab8b0838c5585092ce7e737ca52808b6"
+    },
+    {
+      "path": "desktop/runtime-policy.cjs",
+      "bytes": 989,
+      "sha256": "4c0bb138582f38a5bf6ed445d371e268e6f10f658268b2dfe3e8efd318db6215"
+    },
+    {
+      "path": "desktop/ui-state-log.cjs",
+      "bytes": 1823,
+      "sha256": "2849c139ea4e63193a09301abc83867bdae1a9ea6e2112bedf01d82b8c2e438f"
+    },
+    {
+      "path": "desktop/view-policy.cjs",
+      "bytes": 1041,
+      "sha256": "6374512e19f26fc4dccb3beefc515c40b0b73c215c615765bd275a8d173a1817"
+    },
+    {
+      "path": "docs/ASCII-IDENTITY.md",
+      "bytes": 3615,
+      "sha256": "25543cbaefa13bd33ddd4155c494b757b3fdcfd0f2227375fdf5dde3f044cbb7"
+    },
+    {
+      "path": "docs/BROWSER-COMPAT.md",
+      "bytes": 5916,
+      "sha256": "5a347f8e134e838b4f2a5920a178a6a7df313e19f8cf3100c89f79b6b9846efb"
+    },
+    {
+      "path": "docs/COLLECTOR.md",
+      "bytes": 3157,
+      "sha256": "19aca389b8e37ceccdc73866a33e5a8bf665f0d4b2cac83f5e8458c452682e58"
+    },
+    {
+      "path": "docs/DESIGN.md",
+      "bytes": 4154,
+      "sha256": "b8a14f0b4c8014c557d218fcd4398bc6323d8467bd146b1e5e3022dd5d7700f9"
+    },
+    {
+      "path": "docs/FORMAT.md",
+      "bytes": 2769,
+      "sha256": "e5879d141844c5b82b9e609b6ee140154fa4f7ba61ba4f293f4a557631ae74bc"
+    },
+    {
+      "path": "docs/IMPLEMENTED.md",
+      "bytes": 1105,
+      "sha256": "d45ad49363fe7cafda640b10a69c823c7e65f172d1224e5270e32be6f03020f2"
+    },
+    {
+      "path": "docs/INLINE-ACCEPTANCE.md",
+      "bytes": 1257,
+      "sha256": "e8198d4ec26a738e2fc3777dccd4f921fe011e86f3423cdad3885a052aeb6d33"
+    },
+    {
+      "path": "docs/REPOSITORY-LAYOUT.md",
+      "bytes": 1138,
+      "sha256": "93dc89adbd8ba5f29c2eb7ec6eac0518e82b62bf7a0851c23be43bb9d638bc84"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 1461,
+      "sha256": "e61018decba015f6a04f312191d89bf99456c48d5d1b2da1db5d8d543faa5be4"
+    },
+    {
+      "path": "docs/ROLLBACK.md",
+      "bytes": 1523,
+      "sha256": "df13dcb9709b4f4e7d82b718ff3d0ba443099e9574c1891832229c024f2a06ae"
+    },
+    {
+      "path": "docs/SEPARATE-PAGES.md",
+      "bytes": 889,
+      "sha256": "33f97ba6ff552333c00d7f73c279d39c40349b98dcd10a2956acf80f842fa21f"
+    },
+    {
+      "path": "docs/STATE-SYNC.md",
+      "bytes": 4407,
+      "sha256": "7e32d22183a0b2a3dc72deaf976940669725b0354e3910ff94b3ec374a68189a"
+    },
+    {
+      "path": "docs/UI-CHANGE.md",
+      "bytes": 550,
+      "sha256": "4d5f899ba87ca7d0e408bf4b8efd3a916fc6bcc9a3f1b6441c7dac5512256dc2"
+    },
+    {
+      "path": "docs/UNLIMITED-IMPORT.md",
+      "bytes": 2275,
+      "sha256": "d4304b54cf5e3dbcc7b486a9aa89d435ac42c7dc38e0ea3b5023c902f82a9fb1"
+    },
+    {
+      "path": "docs/WINDOWS-INSTALLER.md",
+      "bytes": 1597,
+      "sha256": "e78c811cba5360db7cbf69c3161a0c92c72556bed612e83c502cf7a86a6d5292"
+    },
+    {
+      "path": "electron-builder.cjs",
+      "bytes": 961,
+      "sha256": "416b0c28ed725ea43b94e98f96dbaa88a39275a4273da9c05827d5c69bdaa545"
+    },
+    {
+      "path": "examples/8077301-001.json",
+      "bytes": 1093,
+      "sha256": "ebfb5c3811e5291487afae56edc050b8adca6682750fa06415f9cc2048795cfc"
+    },
+    {
+      "path": "examples/sample.pmgx",
+      "bytes": 6018135,
+      "sha256": "dcfbadec94251ad16f509b6681b9df5952d204b4c820c9907c2f86029437f185"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7625,
+      "sha256": "0086b6c88e975b0ae2fac5b11a5978e1700521224ce20e851bbf5ac3f020a088"
+    },
+    {
+      "path": "lib/archive.mjs",
+      "bytes": 4944,
+      "sha256": "93ea94aafa8675e55563eb6525774123481388886b764828b0e307624e3423e1"
+    },
+    {
+      "path": "lib/collection.mjs",
+      "bytes": 1371,
+      "sha256": "0e1e874d62b7403952b0b9e58cb421d40ec0709984325ea449faedabc92cbf3a"
+    },
+    {
+      "path": "lib/domain.mjs",
+      "bytes": 3149,
+      "sha256": "b22e640ca3daf5a0706d368e3327bee8e5bd4c50c3f8707761c6bfcddc81f598"
+    },
+    {
+      "path": "lib/image-groups.mjs",
+      "bytes": 4241,
+      "sha256": "a9b751db3256d63effc0872c4a7d255e84b60f1a8447dc29a02601afa7469585"
+    },
+    {
+      "path": "lib/pmg-adapter.mjs",
+      "bytes": 2481,
+      "sha256": "5010ac8113cb1564382da46c2aac53d7274c465411f913d9e25d95a3127280a2"
+    },
+    {
+      "path": "lib/storage.mjs",
+      "bytes": 1628,
+      "sha256": "edc35b2b1a938b0f2e9212737ea4950e292f229fa24e477e833731f1e02b554f"
+    },
+    {
+      "path": "lib/zip-reader.mjs",
+      "bytes": 6829,
+      "sha256": "803d7b131a528944c149f1744a877b0b470b8c657698df7dcb572a243c5ef8aa"
+    },
+    {
+      "path": "package.json",
+      "bytes": 847,
+      "sha256": "3945d0242cc5c69dfc09ff2f2cc954b8826adbcd4354021a353a08912a0fe5d8"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 74319,
+      "sha256": "415223ee017648f327f9c55c6e6965d5a9e92a716ecab7d27227fbd8d3f49ae1"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 2341,
+      "sha256": "870491f6dea3bc223154a8f2ea84461ee7c47e9d264d829924f49c38110acbeb"
+    },
+    {
+      "path": "scripts/make-icon.mjs",
+      "bytes": 1007,
+      "sha256": "6d5969e2499e0011af7aa7518456e465f0b87466867357c2c35ded259f2bad56"
+    },
+    {
+      "path": "tests/adapter.test.mjs",
+      "bytes": 1022,
+      "sha256": "91514ba2a741018a732fa8679ec974940ab339381f45e2e73dde2ed02e1b5354"
+    },
+    {
+      "path": "tests/browser-compat.test.mjs",
+      "bytes": 5945,
+      "sha256": "309cf443ff2200c049e85af8988b4e89b4cb90e7bb2e6825e917db7d2d00fd17"
+    },
+    {
+      "path": "tests/capture-state.test.mjs",
+      "bytes": 5993,
+      "sha256": "421eacb0bca16c741d1ff06ba2fcca9c42237e4497e9548f9e52c3f3ca926fa2"
+    },
+    {
+      "path": "tests/core.test.mjs",
+      "bytes": 2125,
+      "sha256": "a637d2b361ceb75d2ceefb6cceed92f7f861f29d0d53980c9ab5a157d907e92a"
+    },
+    {
+      "path": "tests/image-groups.test.mjs",
+      "bytes": 2486,
+      "sha256": "2c0c2bfccddb8b7f52e708a2b4bd9e082120d51dc39adc69d7da7ab40ba6125c"
+    },
+    {
+      "path": "tests/import-size.test.mjs",
+      "bytes": 5847,
+      "sha256": "0ee3e4eb91108d3bacd81d4001f0b8d25a4af8ae3668e96a52eaa2b1fcadcd43"
+    },
+    {
+      "path": "tests/metadata.test.mjs",
+      "bytes": 2616,
+      "sha256": "5bdbab3a385f4bd9577b76d5bf633b323dda134d57874b747f0ee0d691300b72"
+    },
+    {
+      "path": "tests/navigation.test.mjs",
+      "bytes": 2578,
+      "sha256": "d92fa6ee24c914fd7961a99818b45261c17837dce8178ae8761f069364784352"
+    },
+    {
+      "path": "tests/packaging.test.mjs",
+      "bytes": 1481,
+      "sha256": "beb8dfc25e054b46f12b7de766821093cd9339f9bdc7b32105422aa2e895faba"
+    },
+    {
+      "path": "tests/ui-state-log.test.mjs",
+      "bytes": 1598,
+      "sha256": "63711a06a2a736db0428e3922210dd96fbef3c001a96ec34b6e1559c9a600c19"
+    },
+    {
+      "path": "tests/workspace.test.mjs",
+      "bytes": 2206,
+      "sha256": "4cd8304ba9028d92afcfbfca756ff7505e9028fd68d59f8921f2e00bef75cc30"
+    },
+    {
+      "path": "ui/app.mjs",
+      "bytes": 14995,
+      "sha256": "dabd6537c6552b9c59c4e47ae81ed49b706f5ba16175c45a41b27d81109985f2"
+    },
+    {
+      "path": "ui/capture-state.mjs",
+      "bytes": 5978,
+      "sha256": "75a3c642e29b253c00eadb278211cf8948445561bbe65631895ed83c2ed5b797"
+    },
+    {
+      "path": "ui/capture-workspace.mjs",
+      "bytes": 9349,
+      "sha256": "c01c5542ed70ace521473bbe614ae9fee795bafa17fd3c625127c621f2d9c7c4"
+    },
+    {
+      "path": "ui/image-groups.css",
+      "bytes": 1322,
+      "sha256": "3bf9318bd3f98d7209f78dc66dbed5ff68380e436444e52788e58474f9fc18b7"
+    },
+    {
+      "path": "ui/image-groups.mjs",
+      "bytes": 7632,
+      "sha256": "354eee8a50e225be3df8ddd35ea673a9dacf48a0a2e83bbc5e7e424f6ddd324d"
+    },
+    {
+      "path": "ui/navigation.mjs",
+      "bytes": 670,
+      "sha256": "4205859bbd97c325e184d43c26e7d475d50b006a5ab7bf3d0439f5480e9ec0d9"
+    },
+    {
+      "path": "ui/theme.css",
+      "bytes": 19492,
+      "sha256": "91db9769bda6fd4f922fe48f233d2e65a63425bf6161b1562d03c1b3c8db6e57"
+    },
+    {
+      "path": "ui/window-shell.css",
+      "bytes": 1306,
+      "sha256": "4b439e6e34247593de9b769a03cf66bba5d236b207f05560e5384c04b04895f6"
+    },
+    {
+      "path": "ui/window-shell.mjs",
+      "bytes": 1759,
+      "sha256": "aa505301445844e99e218a214902e2aca08e43b7fd97301b20ec5f139d5af6ed"
+    }
+  ]
+}

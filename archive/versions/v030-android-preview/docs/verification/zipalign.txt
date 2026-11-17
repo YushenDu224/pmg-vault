@@ -1,0 +1,16 @@
+Verifying alignment of C:\Users\John\Documents\Codex\2026-11-17\pmg-delivery\dist\android\PMG-Library-Android-0.1.0-preview.1.apk (4)...
+      87 META-INF/com/android/build/gradle/app-metadata.properties (OK - compressed)
+     208 META-INF/version-control-info.textproto (OK - compressed)
+     297 classes.dex (OK - compressed)
+    9936 assets/web/android-native.css (OK - compressed)
+   10258 assets/web/app.mjs (OK - compressed)
+   17060 assets/web/assets/back.jpg (OK)
+  720316 assets/web/assets/front.jpg (OK)
+ 1401620 assets/web/assets/pmg-logo.svg (OK - compressed)
+ 1403880 assets/web/index.html (OK - compressed)
+ 1407572 assets/web/layout-v024.css (OK - compressed)
+ 1410067 assets/web/score-picker.mjs (OK - compressed)
+ 1411851 assets/web/style.css (OK - compressed)
+ 1415756 AndroidManifest.xml (OK - compressed)
+ 1416728 resources.arsc (OK)
+Verification succesful

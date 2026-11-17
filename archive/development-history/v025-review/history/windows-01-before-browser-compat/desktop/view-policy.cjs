@@ -1,0 +1,4 @@
+exports.officialPage=url=>{try{const u=new URL(url);return u.protocol==='https:'&&['www.pmgnotes.cn','www.pmgnotes.com','pmgnotes.cn','pmgnotes.com'].includes(u.hostname);}catch{return false;}};
+exports.localOrigin=input=>{const u=new URL(input);if(u.protocol!=='http:'||u.hostname!=='127.0.0.1'||u.username||u.password||u.pathname!=='/'||u.search||u.hash)throw Error('仅允许本机应用地址');return u.origin;};
+exports.viewBounds=(input,width,height)=>{if(!input?.visible||!input.rect)return null;const r=input.rect;if(!['x','y','width','height'].every(k=>Number.isFinite(r[k]))||r.width<80||r.height<100)return null;const x=Math.max(0,Math.ceil(r.x)),y=Math.max(0,Math.ceil(r.y)),right=Math.min(width,Math.floor(r.x+r.width)),bottom=Math.min(height,Math.floor(r.y+r.height));if(right-x<80||bottom-y<100)return null;return {x,y,width:right-x,height:bottom-y};};
+exports.archiveId=id=>typeof id==='string'&&/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/.test(id);
