@@ -1,0 +1,35 @@
+{
+  "format": "pmg-offline-ua-test",
+  "createdAt": "2026-11-16T23:48:19.854Z",
+  "versions": {
+    "electron": "45.2.2",
+    "chromium": "156.0.8078.80"
+  },
+  "visibleWindowsCreated": 0,
+  "websiteNavigations": 0,
+  "blockedRequests": [],
+  "results": [
+    {
+      "requestedName": "PMG库",
+      "actualName": "PMG库",
+      "version": "0.18.1-preview.2",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) PMG库/0.18.1-preview.2 Chrome/156.0.8078.80 Electron/45.2.2 Safari/537.36",
+      "nonAscii": true,
+      "nonAsciiCharacters": [
+        "库"
+      ],
+      "url": "",
+      "debuggerAttached": false
+    },
+    {
+      "requestedName": "pmg-library",
+      "actualName": "pmg-library",
+      "version": "0.18.1-preview.2",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) pmg-library/0.18.1-preview.2 Chrome/156.0.8078.80 Electron/45.2.2 Safari/537.36",
+      "nonAscii": false,
+      "nonAsciiCharacters": [],
+      "url": "",
+      "debuggerAttached": false
+    }
+  ]
+}

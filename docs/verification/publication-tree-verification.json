@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-11-17T00:27:04.038Z",
+  "sourceFilesInIndex": 1839,
+  "completeApplicationDirectories": 28,
+  "installedWindows": "0.18.0",
+  "windowsPreview": "0.18.2-preview.1",
+  "androidPreview": "0.1.0-preview.1",
+  "androidSealedFiles": 86,
+  "windowsHistoricalSealsVerified": 27,
+  "ignoredAuditedFilesIncluded": 9,
+  "pathIssues": [],
+  "credentialIssues": [],
+  "missingIndexedFiles": [],
+  "boundaries": {
+    "cloudflareFullLiveAcceptance": false,
+    "androidDeviceTested": false,
+    "androidFullFeatureParity": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "artifact": "app.asar",
+  "package": {
+    "name": "pmg-library",
+    "version": "0.18.1-preview.2",
+    "productName": null,
+    "main": "desktop/main.cjs"
+  },
+  "runtimeFiles": [
+    {
+      "path": "desktop/main.cjs",
+      "hash": "a259351b01c326797d64371df1ad8b66168d03e76eff7c71348a3b1adb10bd79",
+      "matchesSource": true
+    },
+    {
+      "path": "desktop/browser-compat.cjs",
+      "hash": "dfd5ded05ae6ef996f81fded10476cecd8234f71813c7570b47d33e5d7d957b6",
+      "matchesSource": true
+    },
+    {
+      "path": "desktop/capture-engine.cjs",
+      "hash": "0803b4884c88dca40150c8d74e1d68bc68bb897b9f2526631b0ae03a9faea36b",
+      "matchesSource": true
+    },
+    {
+      "path": "ui/capture-workspace.mjs",
+      "hash": "da33ccac724dad6d96ec17b972f38296eda7de443d58608e698e128a6c40abbd",
+      "matchesSource": true
+    }
+  ]
+}

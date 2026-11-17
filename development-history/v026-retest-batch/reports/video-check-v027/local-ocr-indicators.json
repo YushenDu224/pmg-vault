@@ -1,0 +1,134 @@
+﻿[
+    {
+        "second":  40,
+        "localOCRLanguage":  "zh-Hans-CN",
+        "recognizedLineCount":  46,
+        "indicators":  [
+                           {
+                               "indicator":  "Cloudflare",
+                               "matchedLines":  1
+                           },
+                           {
+                               "indicator":  "PMG",
+                               "matchedLines":  3
+                           },
+                           {
+                               "indicator":  "pmgnotes",
+                               "matchedLines":  1
+                           },
+                           {
+                               "indicator":  "库",
+                               "matchedLines":  4
+                           }
+                       ],
+        "topIndicators":  [
+                              {
+                                  "indicator":  "PMG",
+                                  "firstWordY":  90
+                              },
+                              {
+                                  "indicator":  "库",
+                                  "firstWordY":  86
+                              },
+                              {
+                                  "indicator":  "库",
+                                  "firstWordY":  127
+                              }
+                          ],
+        "completeRecognizedTextSaved":  false
+    },
+    {
+        "second":  55,
+        "localOCRLanguage":  "zh-Hans-CN",
+        "recognizedLineCount":  66,
+        "indicators":  [
+                           {
+                               "indicator":  "PMG",
+                               "matchedLines":  5
+                           },
+                           {
+                               "indicator":  "pmgnotes",
+                               "matchedLines":  1
+                           },
+                           {
+                               "indicator":  "库",
+                               "matchedLines":  4
+                           }
+                       ],
+        "topIndicators":  [
+                              {
+                                  "indicator":  "PMG",
+                                  "firstWordY":  90
+                              },
+                              {
+                                  "indicator":  "库",
+                                  "firstWordY":  86
+                              },
+                              {
+                                  "indicator":  "库",
+                                  "firstWordY":  127
+                              }
+                          ],
+        "completeRecognizedTextSaved":  false
+    },
+    {
+        "second":  70,
+        "localOCRLanguage":  "zh-Hans-CN",
+        "recognizedLineCount":  49,
+        "indicators":  [
+                           {
+                               "indicator":  "PMG",
+                               "matchedLines":  4
+                           },
+                           {
+                               "indicator":  "库",
+                               "matchedLines":  4
+                           }
+                       ],
+        "topIndicators":  [
+                              {
+                                  "indicator":  "PMG",
+                                  "firstWordY":  90
+                              },
+                              {
+                                  "indicator":  "库",
+                                  "firstWordY":  86
+                              },
+                              {
+                                  "indicator":  "库",
+                                  "firstWordY":  127
+                              }
+                          ],
+        "completeRecognizedTextSaved":  false
+    },
+    {
+        "second":  100,
+        "localOCRLanguage":  "zh-Hans-CN",
+        "recognizedLineCount":  49,
+        "indicators":  [
+                           {
+                               "indicator":  "PMG",
+                               "matchedLines":  4
+                           },
+                           {
+                               "indicator":  "库",
+                               "matchedLines":  4
+                           }
+                       ],
+        "topIndicators":  [
+                              {
+                                  "indicator":  "PMG",
+                                  "firstWordY":  90
+                              },
+                              {
+                                  "indicator":  "库",
+                                  "firstWordY":  86
+                              },
+                              {
+                                  "indicator":  "库",
+                                  "firstWordY":  127
+                              }
+                          ],
+        "completeRecognizedTextSaved":  false
+    }
+]

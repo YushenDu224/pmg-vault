@@ -1,0 +1,78 @@
+{
+  "pass": true,
+  "elapsedMs": 2352,
+  "pushStateEventsSent": 0,
+  "stateReads": 2,
+  "networkRequestsAllowed": false,
+  "ui": {
+    "text": "已完整保存 · 8077301-001 · 原图 2 张\n详情、截图、网页快照与 MHTML 已保存。",
+    "badge": "已保存",
+    "cards": 1,
+    "images": 2
+  },
+  "trace": [
+    {
+      "stage": "received",
+      "state": "idle",
+      "stamp": null,
+      "visibility": "visible",
+      "source": "initial"
+    },
+    {
+      "stage": "applied",
+      "state": "idle",
+      "stamp": null,
+      "visibility": "visible",
+      "source": "initial"
+    },
+    {
+      "stage": "applied",
+      "state": "loading",
+      "stamp": null,
+      "visibility": "visible",
+      "source": "ui"
+    },
+    {
+      "stage": "received",
+      "state": "loading",
+      "stamp": "2026-11-17T00:09:42.445Z",
+      "visibility": "visible",
+      "source": "start-return"
+    },
+    {
+      "stage": "applied",
+      "state": "loading",
+      "stamp": "2026-11-17T00:09:42.445Z",
+      "visibility": "visible",
+      "source": "start-return"
+    },
+    {
+      "stage": "received",
+      "state": "saved",
+      "stamp": "2026-11-17T00:09:42.946Z",
+      "visibility": "visible",
+      "source": "poll"
+    },
+    {
+      "stage": "applied",
+      "state": "saved",
+      "stamp": "2026-11-17T00:09:42.946Z",
+      "visibility": "visible",
+      "source": "poll"
+    },
+    {
+      "stage": "imported",
+      "state": "saved",
+      "stamp": "2026-11-17T00:09:42.946Z",
+      "visibility": "visible",
+      "source": "poll"
+    },
+    {
+      "stage": "applied",
+      "state": "saved",
+      "stamp": "2026-11-17T00:09:42.946Z",
+      "visibility": "visible",
+      "source": "poll"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "repository": "https://github.com/YushenDu224/pmg-vault",
+  "stableVersion": "v020-unlimited-import",
+  "windowsVersion": "0.16.2",
+  "versions": [
+    {
+      "version": "v001-foundation",
+      "files": 8,
+      "sha256Verified": true
+    },
+    {
+      "version": "v002-app",
+      "files": 18,
+      "sha256Verified": true
+    },
+    {
+      "version": "v003-validation",
+      "files": 18,
+      "sha256Verified": true
+    },
+    {
+      "version": "v004-core",
+      "files": 20,
+      "sha256Verified": true
+    },
+    {
+      "version": "v005-pmg-ui",
+      "files": 21,
+      "sha256Verified": true
+    },
+    {
+      "version": "v006-launch-fix",
+      "files": 23,
+      "sha256Verified": true
+    },
+    {
+      "version": "v007-library-actions",
+      "files": 24,
+      "sha256Verified": true
+    },
+    {
+      "version": "v008-palette",
+      "files": 24,
+      "sha256Verified": true
+    },
+    {
+      "version": "v009-collector",
+      "files": 32,
+      "sha256Verified": true
+    },
+    {
+      "version": "v010-capture-fix",
+      "files": 33,
+      "sha256Verified": true
+    },
+    {
+      "version": "v011-inline-workspace",
+      "files": 38,
+      "sha256Verified": true
+    },
+    {
+      "version": "v012-complete-fields",
+      "files": 39,
+      "sha256Verified": true
+    },
+    {
+      "version": "v013-unified-library",
+      "files": 39,
+      "sha256Verified": true
+    },
+    {
+      "version": "v014-inline-release",
+      "files": 39,
+      "sha256Verified": true
+    },
+    {
+      "version": "v015-inline-final",
+      "files": 40,
+      "sha256Verified": true
+    },
+    {
+      "version": "v016-separated-pages",
+      "files": 43,
+      "sha256Verified": true
+    },
+    {
+      "version": "v017-image-groups-prototype",
+      "files": 54,
+      "sha256Verified": true
+    },
+    {
+      "version": "v018-display-group",
+      "files": 55,
+      "sha256Verified": true
+    },
+    {
+      "version": "v019-windows-installer",
+      "files": 51,
+      "sha256Verified": true
+    },
+    {
+      "version": "v020-unlimited-import",
+      "files": 54,
+      "sha256Verified": true
+    }
+  ],
+  "totalSourceFiles": 673,
+  "method": "Every file and original seal was SHA256 verified locally; remote Git blob verification is recorded after publication.",
+  "testsPassed": 25,
+  "largeImportVerified": true,
+  "repeatedImportDeduplicated": true,
+  "oldVersionsChanged": false,
+  "excluded": [
+    "private collections",
+    "personal images",
+    "browser sessions",
+    "credentials",
+    "dependencies and build caches"
+  ]
+}

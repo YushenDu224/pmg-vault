@@ -1,0 +1,6 @@
+import fs from 'node:fs/promises';
+async function replace(file,before,after){const content=await fs.readFile(file,'utf8');if(!content.includes(before))throw Error('Missing edit point '+file);await fs.writeFile(file,content.replace(before,after));}
+await replace('desktop/main.cjs',"const {configureOfficialContents,createBrowserDiagnostics}=require('./browser-compat.cjs');","const {configureOfficialContents,createBrowserDiagnostics}=require('./browser-compat.cjs');\nconst {createUiStateLog}=require('./ui-state-log.cjs');");
+await replace('desktop/main.cjs',"preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,nodeIntegration:false,sandbox:true}});","preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,nodeIntegration:false,sandbox:true,backgroundThrottling:false}});");
+await replace('desktop/main.cjs',"const diagnostics=createBrowserDiagnostics(view.webContents);","const diagnostics=createBrowserDiagnostics(view.webContents);\n  const uiStateLog=createUiStateLog(data);\n  ipcMain.on('pmg:ui-state',(event,input)=>{trusted(event);uiStateLog.record(input).catch(()=>{});});");
+await replace('desktop/preload.cjs',"windowAction:action=>", "traceState:input=>ipcRenderer.send('pmg:ui-state',input),\nwindowAction:action=>");

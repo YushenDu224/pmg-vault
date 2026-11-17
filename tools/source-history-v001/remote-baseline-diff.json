@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-11-17T00:20:27.893Z",
+  "repository": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-delivery\\repository",
+  "versions": [
+    {
+      "sourceVersion": "v001-foundation",
+      "files": 8,
+      "identical": 8,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v002-app",
+      "files": 18,
+      "identical": 18,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v003-validation",
+      "files": 18,
+      "identical": 18,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v004-core",
+      "files": 20,
+      "identical": 20,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v005-pmg-ui",
+      "files": 21,
+      "identical": 21,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v006-launch-fix",
+      "files": 23,
+      "identical": 23,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v007-library-actions",
+      "files": 24,
+      "identical": 24,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v008-palette",
+      "files": 24,
+      "identical": 24,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v009-collector",
+      "files": 32,
+      "identical": 32,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v010-capture-fix",
+      "files": 33,
+      "identical": 33,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v011-inline-workspace",
+      "files": 38,
+      "identical": 38,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v012-complete-fields",
+      "files": 39,
+      "identical": 39,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v013-unified-library",
+      "files": 39,
+      "identical": 39,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v014-inline-release",
+      "files": 39,
+      "identical": 39,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v015-inline-final",
+      "files": 40,
+      "identical": 40,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v016-separated-pages",
+      "files": 43,
+      "identical": 43,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v017-image-groups-prototype",
+      "files": 54,
+      "identical": 0,
+      "absent": 54,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v018-display-group",
+      "files": 55,
+      "identical": 0,
+      "absent": 55,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v019-windows-installer",
+      "files": 51,
+      "identical": 51,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v020-unlimited-import",
+      "files": 54,
+      "identical": 54,
+      "absent": 0,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v021-image-groups",
+      "files": 58,
+      "identical": 0,
+      "absent": 58,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v022-fluid-ui",
+      "files": 61,
+      "identical": 0,
+      "absent": 61,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v023-window-preview",
+      "files": 60,
+      "identical": 0,
+      "absent": 60,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v025-browser-compat",
+      "files": 63,
+      "identical": 0,
+      "absent": 63,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v027-ascii-identity",
+      "files": 64,
+      "identical": 0,
+      "absent": 64,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v028-state-sync",
+      "files": 69,
+      "identical": 0,
+      "absent": 69,
+      "mismatches": []
+    },
+    {
+      "sourceVersion": "v029-windows-preview",
+      "files": 69,
+      "identical": 0,
+      "absent": 69,
+      "mismatches": []
+    }
+  ]
+}

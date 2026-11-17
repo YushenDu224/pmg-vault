@@ -1,0 +1,23 @@
+{
+  "createdAt": "2026-11-17T00:20:08.171Z",
+  "sourceChecks": [
+    {
+      "version": "v028-state-sync",
+      "sourceDirectory": "C:/Users/John/Documents/Codex/2026-11-17/pmg-retest-v026/versions/v028-state-sync",
+      "sealFile": "SEAL.json",
+      "sealSha256": "bca62eab3a2ca97146613abe99b3dcaec1e18b1a1b8feb50c16d47ba8d57ade9",
+      "files": 68,
+      "checkCommand": "node scripts/check.mjs",
+      "checkPassed": true
+    },
+    {
+      "version": "v029-windows-preview",
+      "sourceDirectory": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-delivery\\versions\\v029-windows-preview",
+      "sealFile": "SEAL.json",
+      "sealSha256": "e8719ed2f970b5ed9f36168b9cc8a8123c401f387d306af88d20b89ef5b9167e",
+      "files": 68,
+      "checkCommand": "node scripts/check.mjs",
+      "checkPassed": true
+    }
+  ]
+}

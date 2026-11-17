@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PMG库 · 界面方案预览</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f5f5; color: #153b29; font: 15px/1.65 Arial,"Microsoft YaHei",sans-serif; }
+    .review-header { background: #fff; padding: 20px clamp(18px,4vw,54px); display: flex; align-items: center; flex-wrap: wrap; gap: 20px; }
+    h1 { font-size: 21px; margin: 0; font-weight: 500; }
+    nav { display: flex; gap: 6px; margin-left: auto; flex-wrap: wrap; }
+    button, a.action { cursor: pointer; border: none; padding: 10px 15px; border-radius: 9px; background: #f0f3ee; color: #294f36; font: inherit; font-size: 13px; text-decoration: none; }
+    button[aria-selected="true"] { background: #053d22; color: #fff; }
+    main { padding: 24px clamp(18px,4vw,54px) 36px; }
+    section[hidden] { display: none; }
+    .intro { margin: 0 0 17px; max-width: 850px; }
+    .intro h2 { font-size: 19px; margin: 0 0 5px; font-weight: 500; }
+    .intro p { color: #667368; margin: 0; font-size: 13px; }
+    .desktop-image { width: 100%; display: block; border-radius: 12px; }
+    .desktop-stage { background: #d8ddda; padding: 12px; border-radius: 14px; }
+    .caption { margin: 12px 0; font-size: 12px; color: #68776c; }
+    .phone-layout { display: grid; grid-template-columns: minmax(0,440px) minmax(250px,1fr); gap: 40px; align-items: start; }
+    .phone-viewport { width: 400px; height: 890px; max-width: 100%; overflow: hidden; border-radius: 22px; box-shadow: 0 12px 50px #142f271c; background: #f8faf6; }
+    iframe { border: none; width: 100%; height: 100%; display: block; }
+    .design-note { max-width: 610px; }
+    .design-note h3 { font-size: 17px; margin: 18px 0 9px; font-weight: 500; }
+    .design-note p { color: #637169; margin: 10px 0; font-size: 14px; }
+    .design-note ul { padding-left: 20px; margin: 0; font-size: 14px; line-height: 1.9; }
+    .scope { background: #fff; padding: 23px; border-radius: 14px; max-width: 950px; }
+    .scope table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { text-align: left; padding: 13px 10px; border-bottom: 1px solid #e3e8e1; vertical-align: top; }
+    th { color: #053d22; }
+    .scope h2 { margin: 0 0 12px; font-size: 20px; font-weight: 500; }
+    .scope p { color: #6b786e; font-size: 13px; margin: 16px 0 0; }
+    @media(max-width:760px) {
+      .review-header { gap: 12px; } nav { margin-left: 0; width: 100%; }
+      .phone-layout { display: flex; flex-direction: column; gap: 25px; }
+      .phone-viewport { width: min(400px,100%); }
+      .scope { padding: 15px; } th,td { padding: 10px 6px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="review-header">
+    <h1>PMG库 · 界面方案预览</h1>
+    <nav aria-label="预览内容">
+      <button data-panel="desktop" aria-selected="true">Windows 窗口</button>
+      <button data-panel="android" aria-selected="false">Android 交互</button>
+      <button data-panel="scope" aria-selected="false">APK 功能范围</button>
+    </nav>
+  </header>
+  <main>
+    <section id="desktop">
+      <div class="intro"><h2>桌面原界面 · 隐藏窗口栏</h2><p>保留图一的颜色、字体、卡片和布局。右上角内嵌最小化、最大化/还原和关闭，外轮廓暂用 24 个逻辑像素的连续曲率圆角。</p></div>
+      <div class="desktop-stage"><a href="previews/windows-preserved.png" target="_blank"><img class="desktop-image" src="previews/windows-preserved.png" alt="保留 v021 样式，仅改窗口栏和外轮廓的 Windows 预览"></a></div>
+      <p class="caption">点击图片可放大。画面使用公开官网样例。Windows 连续曲线为参照 Apple .continuous 风格的近似实现，24 是本次预览选择的半径。</p>
+    </section>
+    <section id="android" hidden>
+      <div class="intro"><h2>小米 15 · 单手可达的档案工作台</h2><p>参考你提供的 1200 × 2670 截图，先用约 400 × 890 的逻辑视口预览。可以切换底部导航、打开详情、上传样图和选择展示组。</p></div>
+      <div class="phone-layout">
+        <div class="phone-viewport"><iframe src="android-preview/index.html" title="可操作的 PMG库 Android 设计预览"></iframe></div>
+        <div class="design-note">
+          <h3>排版方向</h3>
+          <ul><li>正文 16，输入 17，页面标题 24。</li><li>重要操作约 48 像素高，适合触摸。</li><li>查询网站、编号和评分集中在紧凑表单。</li><li>官网区域保留独立空间，采集结果接在下方。</li><li>详情用上拉面板，图片、信息、存档、历史分别查看。</li><li>官网图片与自行上传成组，可选择默认展示组。</li></ul>
+          <h3>先体验这些交互</h3>
+          <p>打开库里的样例，切换详情标签，再添加一组正反面图片，填写来源和网址，设为展示组，返回库查看封面。</p>
+          <p>查询页展示界面和流程演示。正式 APK 的原生官网采集、PMGX 文件导入导出会在选定方案后接入。</p>
+          <a class="action" href="android-preview/index.html" target="_blank">单独打开 Android 预览 ↗</a>
+        </div>
+      </div>
+    </section>
+    <section id="scope" hidden>
+      <div class="scope">
+        <h2>Android 本地应用 · 待实现与验收范围</h2>
+        <table>
+          <thead><tr><th>能力</th><th>本次预览</th><th>正式 APK 验收</th></tr></thead>
+          <tbody>
+            <tr><td>库、检索、筛选与升降序</td><td>布局与样例交互</td><td>全部现有字段、缺失值及大资料库</td></tr>
+            <tr><td>中国站 / 全球站查询</td><td>表单与流程演示</td><td>原生 WebView 内查询、验证与结果核对</td></tr>
+            <tr><td>官网详情、原图、网页截图和存档</td><td>样例浏览</td><td>保持查询会话下载原图，采集后校验并入库</td></tr>
+            <tr><td>正反面图片组与来源网址</td><td>本地选图、来源表单与展示切换</td><td>原图文件持久化，图片组随 PMGX 往返</td></tr>
+            <tr><td>PMGX / 整库 ZIP 导入导出</td><td>入口与说明</td><td>系统文件选择器、导出分享、旧档案兼容</td></tr>
+            <tr><td>回收站与恢复</td><td>预览内操作</td><td>正式资料库删除恢复、采集历史保留</td></tr>
+            <tr><td>小米 15 适配</td><td>屏幕比例与触摸布局</td><td>真机密度、系统字号、输入法、手势区和后台恢复</td></tr>
+          </tbody>
+        </table>
+        <p>本页是设计评审预览。你选定界面后，再制作支持全部现有功能的 Android 本地安装包，并区分自动化测试、模拟器与小米真机结果。</p>
+      </div>
+    </section>
+  </main>
+  <script>
+    document.querySelector('nav').addEventListener('click',event=>{
+      const selected=event.target.closest('[data-panel]');
+      if(!selected)return;
+      for(const button of document.querySelectorAll('[data-panel]')) {
+        const active=button===selected;
+        button.setAttribute('aria-selected',String(active));
+        document.getElementById(button.dataset.panel).hidden=!active;
+      }
+    });
+  </script>
+</body>
+</html>

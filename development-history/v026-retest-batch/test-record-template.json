@@ -1,0 +1,65 @@
+{
+  "testBatch": "pmg-retest-v026",
+  "purpose": "Distinguish waiting for human verification from failed/repeating verification, and compare packaged embedded browser with a normal supported system browser.",
+  "target": {
+    "site": "global",
+    "certificate": "8077301-001",
+    "grade": "67",
+    "url": "https://www.pmgnotes.com/certlookup/8077301-001/67/"
+  },
+  "controls": {
+    "sameDevice": true,
+    "sameNetwork": true,
+    "noUaOrDeviceOverrides": true,
+    "noDevtoolsAttached": true,
+    "noAutomatedChallengeSolving": true,
+    "noCookieTransferOrInspection": true,
+    "noPrivateCollectionInspection": true,
+    "oneNavigationAtATime": true,
+    "normalBrowserProfileClearanceMayDiffer": true
+  },
+  "runs": [
+    {
+      "id": "A-packaged-embedded",
+      "appVersion": "0.18.1-preview.2",
+      "artifactSha256": null,
+      "runtime": {"electron": "45.2.2", "chromium": "156.0.8078.80"},
+      "dataProfile": "isolated test directory, do not export profile contents",
+      "events": [],
+      "initialChallengeVisible": null,
+      "humanAction": {"performed": false, "actor": null, "authorizationScope": null, "timeUtc": null, "elapsedSeconds": null},
+      "visibleChallengeCode": null,
+      "visibleRayId": null,
+      "outcome": "not-tested",
+      "detailsVisible": null,
+      "captureState": null,
+      "screenshotMethod": null,
+      "screenRecording": null,
+      "screenEvidence": [],
+      "diagnosticFile": null,
+      "observationDurationSeconds": null
+    },
+    {
+      "id": "B-system-browser",
+      "browserName": null,
+      "browserVersion": null,
+      "profileMode": "normal system browser; existing clearance unknown",
+      "events": [],
+      "initialChallengeVisible": null,
+      "humanAction": {"performed": false, "actor": null, "authorizationScope": null, "timeUtc": null, "elapsedSeconds": null},
+      "visibleChallengeCode": null,
+      "visibleRayId": null,
+      "outcome": "not-tested",
+      "detailsVisible": null,
+      "screenshotMethod": null,
+      "screenRecording": null,
+      "screenEvidence": [],
+      "observationDurationSeconds": null
+    }
+  ],
+  "eventTemplate": {"timeUtc": null,"elapsedSeconds": null,"kind": "navigation|challenge-visible|human-click|spinner|checkmark|details|challenge-return|visible-error|manual-reload|session-reopen","description": null,"evidenceFile": null},
+  "allowedOutcomes": ["not-tested","details-without-action","waiting-human-no-action","details-after-human-action","challenge-return-after-human-action","visible-error-after-human-action","network-error","view-not-visible","indeterminate"],
+  "comparisonConclusion": null,
+  "unresolvedConfounders": ["Independent browser sessions may have different prior clearance or cookies.","Network and website detection can vary between sequential visits.","Parent-renderer screenshots may omit native child view content."],
+  "privacy": "Record only public certificate view, visible error/Ray ID, relevant app state and sanitized diagnostic file. Do not record other tabs, private collections, passwords, cookies, tokens or request headers."
+}

@@ -1,0 +1,64 @@
+{
+  "purpose": "Offline inspection of an existing recording; not a new capture",
+  "source": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-retest-v026\\recording\\pmg-app.webm",
+  "sourceBytes": 968984,
+  "sourceSHA256Before": "c0bcdeff24baebacf50c8622071ac8abbd5c7c901250672e7b2f45e001b43118",
+  "sourceSHA256After": "c0bcdeff24baebacf50c8622071ac8abbd5c7c901250672e7b2f45e001b43118",
+  "originalUnchanged": true,
+  "decodedAt": "2026-11-16T23:55:21.788Z",
+  "metadata": {
+    "initialDuration": "Infinity",
+    "durationAfterIndexing": 119.969,
+    "endSeekTime": 119.969,
+    "width": 1876,
+    "height": 1250,
+    "seekable": [
+      [
+        0,
+        119.969
+      ]
+    ],
+    "buffered": [
+      [
+        0,
+        119.969
+      ]
+    ],
+    "readyState": 4,
+    "networkState": 1,
+    "decodedVideoFrames": 333,
+    "droppedVideoFrames": 0,
+    "canPlayVP8WebM": "probably",
+    "autoplayUsed": false,
+    "audioPlayed": false
+  },
+  "frames": [
+    {
+      "requestedTime": 3,
+      "decodedTime": 3,
+      "width": 1876,
+      "height": 1250,
+      "bytes": 812560,
+      "sha256": "796408ac6ba1c69546cab12ac84651e91783422cc03b93ed882cf788eb8972bd",
+      "file": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-retest-v026\\reports\\video-check\\frame-003s.png"
+    },
+    {
+      "requestedTime": 40,
+      "decodedTime": 40,
+      "width": 1876,
+      "height": 1250,
+      "bytes": 851651,
+      "sha256": "a1f64b270593e9b645ee3a573cdbd4472ad94f213cd126e79ed4b44f5a143454",
+      "file": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-retest-v026\\reports\\video-check\\frame-040s.png"
+    },
+    {
+      "requestedTime": 90,
+      "decodedTime": 90,
+      "width": 1876,
+      "height": 1250,
+      "bytes": 588035,
+      "sha256": "7ad3b6584f3b08fff7ac7d9d0624a32122831e03550dc009cb07979d743bb597",
+      "file": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-retest-v026\\reports\\video-check\\frame-090s.png"
+    }
+  ]
+}

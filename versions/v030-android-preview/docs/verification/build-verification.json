@@ -1,0 +1,14 @@
+{
+  "package": "io.github.yushendu224.pmglibrary.preview",
+  "version": "0.1.0-preview.1",
+  "minSdk": 26,
+  "targetSdk": 35,
+  "apk": "PMG-Library-Android-0.1.0-preview.1.apk",
+  "sha256": "4bacfd292b6547d3cb0a044c76ead40f861019264d32dbb193dc334258aad4cb",
+  "signing": "project-specific test key; private key excluded",
+  "signatureVerified": true,
+  "alignmentVerified": true,
+  "lint": "passed; see included report",
+  "deviceInstalled": false,
+  "deviceTested": false
+}

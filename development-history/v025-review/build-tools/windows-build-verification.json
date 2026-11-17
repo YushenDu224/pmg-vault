@@ -1,0 +1,159 @@
+{
+  "version": "0.18.1-preview.2",
+  "sourceVersion": "v025-browser-compat",
+  "electron": "45.2.2",
+  "installer": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-review-v025\\dist\\PMG-Library-0.18.1-preview.2-Setup-x64.exe",
+  "installerBytes": 124207149,
+  "installerSHA256": "308949c807095d148bbe0f0a9fe39bde963b0c236fc923db785ec6c805df236d",
+  "appAsarSHA256": "695f46c463fb653f1331cb16dbf746e12820db5506838db7f92d1438d0533334",
+  "bundledSourceFilesVerified": 28,
+  "files": [
+    {
+      "path": "assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    },
+    {
+      "path": "build/icon.ico",
+      "bytes": 7146,
+      "sha256": "8d5bf627e1093be8be5627d1e8a2223d2450a21cf3e2aeb5a555b1dffde9cd0f"
+    },
+    {
+      "path": "desktop/browser-compat.cjs",
+      "bytes": 4867,
+      "sha256": "dfd5ded05ae6ef996f81fded10476cecd8234f71813c7570b47d33e5d7d957b6"
+    },
+    {
+      "path": "desktop/capture-engine.cjs",
+      "bytes": 9973,
+      "sha256": "0803b4884c88dca40150c8d74e1d68bc68bb897b9f2526631b0ae03a9faea36b"
+    },
+    {
+      "path": "desktop/collector.html",
+      "bytes": 1860,
+      "sha256": "66b1525439e23e659ae13693e367c714c7609bb98dd151b511049329d8af7211"
+    },
+    {
+      "path": "desktop/collector.js",
+      "bytes": 643,
+      "sha256": "790ffe406a843eb022610118ec651c6659408fbebb59680e8aee8e388b8caf46"
+    },
+    {
+      "path": "desktop/main.cjs",
+      "bytes": 7257,
+      "sha256": "a259351b01c326797d64371df1ad8b66168d03e76eff7c71348a3b1adb10bd79"
+    },
+    {
+      "path": "desktop/preload.cjs",
+      "bytes": 1295,
+      "sha256": "49016f833000a6231a1daf882ebe33aaadb97237238c1f7a653eba5e6a290785"
+    },
+    {
+      "path": "desktop/runtime-policy.cjs",
+      "bytes": 989,
+      "sha256": "4c0bb138582f38a5bf6ed445d371e268e6f10f658268b2dfe3e8efd318db6215"
+    },
+    {
+      "path": "desktop/view-policy.cjs",
+      "bytes": 1041,
+      "sha256": "6374512e19f26fc4dccb3beefc515c40b0b73c215c615765bd275a8d173a1817"
+    },
+    {
+      "path": "examples/sample.pmgx",
+      "bytes": 6018135,
+      "sha256": "dcfbadec94251ad16f509b6681b9df5952d204b4c820c9907c2f86029437f185"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7625,
+      "sha256": "0086b6c88e975b0ae2fac5b11a5978e1700521224ce20e851bbf5ac3f020a088"
+    },
+    {
+      "path": "lib/archive.mjs",
+      "bytes": 4944,
+      "sha256": "93ea94aafa8675e55563eb6525774123481388886b764828b0e307624e3423e1"
+    },
+    {
+      "path": "lib/collection.mjs",
+      "bytes": 1371,
+      "sha256": "0e1e874d62b7403952b0b9e58cb421d40ec0709984325ea449faedabc92cbf3a"
+    },
+    {
+      "path": "lib/collector-service.mjs",
+      "bytes": 2705,
+      "sha256": "0d7a773e472fa801b1659df9c50e4c26f83bf539ab0005e41f69ca134021584a"
+    },
+    {
+      "path": "lib/domain.mjs",
+      "bytes": 3149,
+      "sha256": "b22e640ca3daf5a0706d368e3327bee8e5bd4c50c3f8707761c6bfcddc81f598"
+    },
+    {
+      "path": "lib/image-groups.mjs",
+      "bytes": 4241,
+      "sha256": "a9b751db3256d63effc0872c4a7d255e84b60f1a8447dc29a02601afa7469585"
+    },
+    {
+      "path": "lib/pmg-adapter.mjs",
+      "bytes": 2481,
+      "sha256": "5010ac8113cb1564382da46c2aac53d7274c465411f913d9e25d95a3127280a2"
+    },
+    {
+      "path": "lib/storage.mjs",
+      "bytes": 1628,
+      "sha256": "edc35b2b1a938b0f2e9212737ea4950e292f229fa24e477e833731f1e02b554f"
+    },
+    {
+      "path": "lib/zip-reader.mjs",
+      "bytes": 6829,
+      "sha256": "803d7b131a528944c149f1744a877b0b470b8c657698df7dcb572a243c5ef8aa"
+    },
+    {
+      "path": "ui/app.mjs",
+      "bytes": 14995,
+      "sha256": "dabd6537c6552b9c59c4e47ae81ed49b706f5ba16175c45a41b27d81109985f2"
+    },
+    {
+      "path": "ui/capture-workspace.mjs",
+      "bytes": 7894,
+      "sha256": "da33ccac724dad6d96ec17b972f38296eda7de443d58608e698e128a6c40abbd"
+    },
+    {
+      "path": "ui/image-groups.css",
+      "bytes": 1322,
+      "sha256": "3bf9318bd3f98d7209f78dc66dbed5ff68380e436444e52788e58474f9fc18b7"
+    },
+    {
+      "path": "ui/image-groups.mjs",
+      "bytes": 7632,
+      "sha256": "354eee8a50e225be3df8ddd35ea673a9dacf48a0a2e83bbc5e7e424f6ddd324d"
+    },
+    {
+      "path": "ui/navigation.mjs",
+      "bytes": 670,
+      "sha256": "4205859bbd97c325e184d43c26e7d475d50b006a5ab7bf3d0439f5480e9ec0d9"
+    },
+    {
+      "path": "ui/theme.css",
+      "bytes": 19492,
+      "sha256": "91db9769bda6fd4f922fe48f233d2e65a63425bf6161b1562d03c1b3c8db6e57"
+    },
+    {
+      "path": "ui/window-shell.css",
+      "bytes": 1306,
+      "sha256": "4b439e6e34247593de9b769a03cf66bba5d236b207f05560e5384c04b04895f6"
+    },
+    {
+      "path": "ui/window-shell.mjs",
+      "bytes": 1759,
+      "sha256": "aa505301445844e99e218a214902e2aca08e43b7fd97301b20ec5f139d5af6ed"
+    }
+  ],
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "signed": false,
+  "installed": false,
+  "productionUserDataOpenedByBuild": false
+}

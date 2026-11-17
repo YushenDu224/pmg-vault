@@ -1,0 +1,32 @@
+{
+  "createdAt": "2026-11-17T00:16:40.776Z",
+  "registryDisplayVersion": "0.18.0",
+  "observedMainProcess": {
+    "pid": 26220,
+    "executable": "C:/Users/John/AppData/Local/Programs/pmg-library/PMG库.exe",
+    "windowTitle": "PMG库 · 钞票档案"
+  },
+  "testV028ProcessObserved": false,
+  "targets": [
+    {
+      "role": "installed",
+      "directory": "C:/Users/John/AppData/Local/Programs/pmg-library",
+      "asarExists": true,
+      "asarSha256": "768f191ade91cb5f41fa3b30fd2dbcd877a4fd56d01b41083e7d8dc1eb1d1a3e",
+      "packageName": "pmg-library",
+      "packageVersion": "0.18.0",
+      "main": "desktop/main.cjs",
+      "exeExists": true
+    },
+    {
+      "role": "v028-test-output",
+      "directory": "C:/Users/John/Documents/Codex/2026-11-17/pmg-retest-v026/dist-v028/win-unpacked",
+      "asarExists": true,
+      "asarSha256": "8f3c1cf582efe7f252d0df7059c2e1bf8058cab6fe415f7b86a76a6c5de6d94f",
+      "packageName": "pmg-library",
+      "packageVersion": "0.18.1-preview.2",
+      "main": "desktop/main.cjs",
+      "exeExists": true
+    }
+  ]
+}

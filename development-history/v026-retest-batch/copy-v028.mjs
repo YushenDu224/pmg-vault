@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';import path from 'node:path';import {createHash} from 'node:crypto';
+const root=import.meta.dirname,source=path.join(root,'versions/v027-ascii-identity'),destination=path.join(root,'versions/v028-state-sync');
+const seal=JSON.parse(await fs.readFile(path.join(source,'SEAL.json'),'utf8'));await fs.mkdir(destination);
+for(const entry of seal.files){const from=path.join(source,entry.path);const stat=await fs.lstat(from);if(!stat.isFile()||stat.isSymbolicLink())throw Error('Unexpected source type');const bytes=await fs.readFile(from);if(bytes.length!==entry.bytes||createHash('sha256').update(bytes).digest('hex')!==entry.sha256)throw Error('Seal mismatch '+entry.path);const target=path.join(destination,entry.path);await fs.mkdir(path.dirname(target),{recursive:true});await fs.writeFile(target,bytes,{flag:'wx'});}
+await fs.writeFile(path.join(root,'reports/v028-copy.json'),JSON.stringify({createdAt:new Date().toISOString(),from:'v027-ascii-identity',to:'v028-state-sync',files:seal.files.length,noLinks:true,oldSealNotCopied:true},null,2));console.log('Copied '+seal.files.length+' verified source files.');

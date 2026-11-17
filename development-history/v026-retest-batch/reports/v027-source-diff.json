@@ -1,0 +1,16 @@
+{
+  "from": "v025-browser-compat",
+  "to": "v027-ascii-identity",
+  "comparedOriginalFiles": 62,
+  "differences": [
+    {
+      "path": "desktop/main.cjs",
+      "oldSha256": "a259351b01c326797d64371df1ad8b66168d03e76eff7c71348a3b1adb10bd79",
+      "newSha256": "0235f691e21413a5ed76e1aafa8e949c90ac6331739df1eaeea8f060d43ef4d8"
+    }
+  ],
+  "addedFiles": [
+    "docs/ASCII-IDENTITY.md"
+  ],
+  "sealed": false
+}

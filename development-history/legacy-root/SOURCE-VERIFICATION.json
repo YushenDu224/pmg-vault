@@ -1,0 +1,64 @@
+{
+  "repository": "https://github.com/YushenDu224/pmg-vault",
+  "verifiedAt": "2026-11-05T15:12:43.598Z",
+  "versions": [
+    {
+      "version": "v001-foundation",
+      "files": 8,
+      "sha256Verified": true
+    },
+    {
+      "version": "v002-app",
+      "files": 18,
+      "sha256Verified": true
+    },
+    {
+      "version": "v003-validation",
+      "files": 18,
+      "sha256Verified": true
+    },
+    {
+      "version": "v004-core",
+      "files": 20,
+      "sha256Verified": true
+    },
+    {
+      "version": "v005-pmg-ui",
+      "files": 21,
+      "sha256Verified": true
+    },
+    {
+      "version": "v006-launch-fix",
+      "files": 23,
+      "sha256Verified": true
+    },
+    {
+      "version": "v007-library-actions",
+      "files": 24,
+      "sha256Verified": true
+    },
+    {
+      "version": "v008-palette",
+      "files": 24,
+      "sha256Verified": true
+    },
+    {
+      "version": "v009-collector",
+      "files": 32,
+      "sha256Verified": true
+    },
+    {
+      "version": "v010-capture-fix",
+      "files": 33,
+      "sha256Verified": true
+    }
+  ],
+  "totalFiles": 221,
+  "excluded": [
+    "node_modules",
+    "user-data",
+    "browser sessions",
+    "personal collections"
+  ],
+  "status": "all files match local sealed source"
+}

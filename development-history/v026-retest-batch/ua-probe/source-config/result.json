@@ -1,0 +1,19 @@
+{
+  "format": "pmg-offline-source-config-ua-test",
+  "createdAt": "2026-11-16T23:50:09.050Z",
+  "sourceVersionDirectory": "v027-ascii-identity",
+  "configuredName": "pmg-library",
+  "actualName": "pmg-library",
+  "version": "0.18.1-preview.2",
+  "versions": {
+    "electron": "45.2.2",
+    "chromium": "156.0.8078.80"
+  },
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) pmg-library/0.18.1-preview.2 Chrome/156.0.8078.80 Electron/45.2.2 Safari/537.36",
+  "nonAscii": false,
+  "visibleWindowsCreated": 0,
+  "websiteNavigations": 0,
+  "blockedRequests": [],
+  "url": "",
+  "debuggerAttached": false
+}

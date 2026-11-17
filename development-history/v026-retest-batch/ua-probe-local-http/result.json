@@ -1,0 +1,44 @@
+{
+  "format": "pmg-local-http-ua-header-test",
+  "createdAt": "2026-11-16T23:51:02.068Z",
+  "versions": {
+    "electron": "45.2.2",
+    "chromium": "156.0.8078.80"
+  },
+  "visibleWindowsCreated": 0,
+  "externalNavigations": 0,
+  "blockedExternalRequests": [],
+  "transport": "HTTP/1.1 loopback only; Node rawHeaders Latin1 reconstructed to exact header bytes",
+  "results": [
+    {
+      "requestedName": "PMG库",
+      "version": "0.18.1-preview.2",
+      "getterUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) PMG库/0.18.1-preview.2 Chrome/156.0.8078.80 Electron/45.2.2 Safari/537.36",
+      "getterNonAscii": true,
+      "loadError": null,
+      "httpVersion": "1.1",
+      "requestArrived": true,
+      "userAgentLatin1": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) PMGåº/0.18.1-preview.2 Chrome/156.0.8078.80 Electron/45.2.2 Safari/537.36",
+      "userAgentBytesHex": "4d6f7a696c6c612f352e30202857696e646f7773204e542031302e303b2057696e36343b2078363429204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f2920504d47e5ba932f302e31382e312d707265766965772e32204368726f6d652f3135362e302e383037382e383020456c656374726f6e2f34352e322e32205361666172692f3533372e3336",
+      "userAgentUtf8": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) PMG库/0.18.1-preview.2 Chrome/156.0.8078.80 Electron/45.2.2 Safari/537.36",
+      "containsNonAsciiBytes": true,
+      "getterEqualsUtf8Header": true,
+      "debuggerAttached": false
+    },
+    {
+      "requestedName": "pmg-library",
+      "version": "0.18.1-preview.2",
+      "getterUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) pmg-library/0.18.1-preview.2 Chrome/156.0.8078.80 Electron/45.2.2 Safari/537.36",
+      "getterNonAscii": false,
+      "loadError": null,
+      "httpVersion": "1.1",
+      "requestArrived": true,
+      "userAgentLatin1": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) pmg-library/0.18.1-preview.2 Chrome/156.0.8078.80 Electron/45.2.2 Safari/537.36",
+      "userAgentBytesHex": "4d6f7a696c6c612f352e30202857696e646f7773204e542031302e303b2057696e36343b2078363429204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f2920706d672d6c6962726172792f302e31382e312d707265766965772e32204368726f6d652f3135362e302e383037382e383020456c656374726f6e2f34352e322e32205361666172692f3533372e3336",
+      "userAgentUtf8": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) pmg-library/0.18.1-preview.2 Chrome/156.0.8078.80 Electron/45.2.2 Safari/537.36",
+      "containsNonAsciiBytes": false,
+      "getterEqualsUtf8Header": true,
+      "debuggerAttached": false
+    }
+  ]
+}

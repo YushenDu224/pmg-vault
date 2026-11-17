@@ -1,0 +1,17 @@
+[
+  {
+    "file": "frames/app-01-before-action.png",
+    "at": "2026-11-16T23:41:12.627Z",
+    "label": "App before interaction"
+  },
+  {
+    "file": "frames/app-02-waiting.png",
+    "at": "2026-11-16T23:41:33.162Z",
+    "label": "App automatic verification waiting"
+  },
+  {
+    "file": "frames/app-03-verification.png",
+    "at": "2026-11-16T23:41:50.079Z",
+    "label": "App verification widget"
+  }
+]

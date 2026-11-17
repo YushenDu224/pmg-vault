@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PMG库 · v024 界面预览</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f5f5;color:#053d22;font:15px/1.65 'Segoe UI','Microsoft YaHei',sans-serif}.review-header{background:#fff;padding:18px clamp(18px,4vw,54px);display:flex;align-items:center;flex-wrap:wrap;gap:20px;border-bottom:1px solid #d0d0cd}h1{font-size:20px;margin:0;font-weight:500}nav{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap}button,a.action{cursor:pointer;border:1px solid #d0d0cd;padding:9px 14px;border-radius:7px;background:#fff;color:#053d22;font:inherit;font-size:14px;text-decoration:none}button[aria-selected=true],button[aria-pressed=true]{background:#053d22;color:#fff;border-color:#053d22}button:focus-visible,a:focus-visible{outline:3px solid #657b6e;outline-offset:3px}main{padding:24px clamp(18px,4vw,54px) 40px}section[hidden]{display:none}.intro{margin:0 0 20px;max-width:950px}.intro h2{font-size:21px;margin:0 0 6px;font-weight:500}.intro p{color:#666;margin:0;font-size:14px}.desktop-image{width:100%;display:block}.desktop-stage{background:#dededb;padding:12px;border-radius:12px}.caption{margin:12px 0;font-size:13px;color:#666}.preview-controls{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin:18px 0 20px}.control-group{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.control-group>span{font-size:13px;color:#666;margin-right:3px}.phones{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}.phone-stage{width:400px;max-width:100%}.phone-label{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:9px}.phone-label strong{font-size:15px;font-weight:500}.phone-label small{color:#666;font-size:12px}.phone-viewport{width:400px;max-width:100%;height:890px;overflow:hidden;border-radius:22px;box-shadow:0 10px 35px #00000012;background:#fff;border:1px solid #ccc}iframe{border:none;width:100%;height:100%;display:block}.design-note{margin-top:28px;max-width:900px;background:#fff;padding:22px;border-radius:12px}.design-note h3{font-size:17px;margin:0 0 9px;font-weight:500}.design-note p{color:#666;margin:8px 0;font-size:14px}.design-note ul{padding-left:20px;margin:0 0 20px;font-size:14px;line-height:1.95;color:#555}.scope{background:#fff;padding:23px;border-radius:12px;max-width:1000px}.scope table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:13px 10px;border-bottom:1px solid #ddd;vertical-align:top}th{color:#053d22}.scope h2{margin:0 0 12px;font-size:20px;font-weight:500}.scope p{color:#666;font-size:14px;margin:16px 0 0}@media(max-width:760px){.review-header{gap:12px}nav{margin-left:0;width:100%}.phones{gap:25px}.scope{padding:15px}th,td{padding:10px 6px}}
+</style>
+</head>
+<body>
+<header class="review-header"><h1>PMG库 · v024 界面预览</h1><nav aria-label="预览内容"><button data-panel="desktop" aria-selected="false">Windows 窗口</button><button data-panel="android" aria-selected="true">Android 交互</button><button data-panel="scope" aria-selected="false">APK 功能范围</button></nav></header>
+<main>
+<section id="desktop" hidden>
+<div class="intro"><h2>Windows · 原程序配色与内容样式</h2><p>延续原程序 v021 的颜色、字体、卡片和布局。仅使用内嵌的最小化、最大化/还原、关闭按钮，并修改窗口外轮廓。</p></div>
+<div class="desktop-stage"><a href="previews/windows-preserved.png" target="_blank"><img class="desktop-image" src="previews/windows-preserved.png" alt="保留原程序样式，仅修改窗口栏和外轮廓的 Windows 预览"></a></div><p class="caption">点击图片可放大。窗口外轮廓采用 24 个逻辑像素的连续曲线近似；24 为本预览选择的数值。画面使用公开官网样例。</p>
+</section>
+<section id="android">
+<div class="intro"><h2>Android · 双列瀑布流，完整展示横向钞票</h2><p>参考小米 15 的 1200 × 2670 截图，以 400 × 890 逻辑视口预览。两台预览都可以操作，浅色与深色并排比较。</p></div>
+<div class="preview-controls"><div class="control-group" aria-label="预览页面"><span>页面</span><button data-route="library" aria-pressed="true">库</button><button data-route="query" aria-pressed="false">查询与采集</button><button data-route="more" aria-pressed="false">更多</button></div><div class="control-group" aria-label="主题预览"><span>主题</span><button data-mode="compare" aria-pressed="true">浅色 / 深色对比</button><button data-mode="system" aria-pressed="false">跟随本机系统</button></div></div>
+<div class="phones"><div class="phone-stage"><div class="phone-label"><strong id="left-label">浅色模式</strong><small>400 × 890</small></div><div class="phone-viewport"><iframe data-theme="light" src="android-preview/index.html?theme=light" title="Android 浅色交互预览"></iframe></div></div><div class="phone-stage"><div class="phone-label"><strong id="right-label">深色模式</strong><small>400 × 890</small></div><div class="phone-viewport"><iframe data-theme="dark" src="android-preview/index.html?theme=dark" title="Android 深色交互预览"></iframe></div></div></div>
+<div class="design-note"><h3>这版调整</h3><ul><li>两列独立排布，图片按原比例完整展示，名称自然换行，卡片不强制等高。</li><li>底栏操作区从 77 像素缩至 65.45 像素，减少 15%；文字从 12 增至 15，系统手势安全区另计。</li><li>查询表单用真实文字和控件重绘，保留官网绿底、字体、白输入框与灰色按钮，增加中国站 / 全球站选择框。</li><li>采集结果按认证信息、原图、网页存档分行展示，用完整文字标注状态。</li><li>深色跟随系统，钞票原图保持原色。正式 APK 仍需验证小米系统切换、字体大小和手势区。</li></ul><p>预览中的查询与采集是流程演示；图片上传在本次预览内生效。正式 PMGX 导入导出和官网采集将在选定界面后接入。</p><p><a class="action" href="android-preview/index.html" target="_blank">单独打开 Android 预览 ↗</a></p></div>
+</section>
+<section id="scope" hidden><div class="scope"><h2>Android 本地应用 · 功能范围</h2><table><thead><tr><th>能力</th><th>本次预览</th><th>正式 APK 验收</th></tr></thead><tbody>
+<tr><td>库、检索、筛选与升降序</td><td>双列排版、公开样例与交互</td><td>全部现有字段、缺失值及大资料库</td></tr>
+<tr><td>中国站 / 全球站查询</td><td>官网样式表单与流程演示</td><td>原生 WebView 内查询、验证与结果核对</td></tr>
+<tr><td>官网详情、原图、网页截图和存档</td><td>样例与清晰的采集状态列表</td><td>保持查询会话下载原图，校验后入库</td></tr>
+<tr><td>正反面图片组与来源网址</td><td>本地选图、来源表单与展示切换</td><td>原图文件持久化，图片组随 PMGX 往返</td></tr>
+<tr><td>PMGX / 整库 ZIP 导入导出</td><td>入口与说明</td><td>系统文件选择器、导出分享、旧档案兼容</td></tr>
+<tr><td>回收站与恢复</td><td>预览内操作</td><td>正式资料库删除恢复、采集历史保留</td></tr>
+<tr><td>小米 15 适配</td><td>浅深主题、双列排版与底栏</td><td>系统深色跟随、字号、键盘、手势区与后台恢复</td></tr>
+</tbody></table><p>这是设计评审预览。界面确定后，再制作支持全部现有功能的 Android 本地安装包；预览检查与手机真机测试分别记录。</p></div></section>
+</main>
+<script>
+const frames=[...document.querySelectorAll('iframe')];
+let mode='compare';
+const applyTheme=frame=>frame.contentWindow?.postMessage({type:'pmg-preview-theme',value:mode==='system'?'system':frame.dataset.theme},location.origin);
+frames.forEach(frame=>frame.addEventListener('load',()=>applyTheme(frame)));
+document.querySelector('nav').addEventListener('click',event=>{const selected=event.target.closest('[data-panel]');if(!selected)return;for(const button of document.querySelectorAll('[data-panel]')){const active=button===selected;button.setAttribute('aria-selected',String(active));document.getElementById(button.dataset.panel).hidden=!active;}});
+document.querySelectorAll('[data-route]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-route]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));frames.forEach(frame=>{frame.contentWindow.location.hash=button.dataset.route;});}));
+document.querySelectorAll('[data-mode]').forEach(button=>button.addEventListener('click',()=>{mode=button.dataset.mode;document.querySelectorAll('[data-mode]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));frames.forEach(applyTheme);document.getElementById('left-label').textContent=mode==='system'?'跟随本机系统':'浅色模式';document.getElementById('right-label').textContent=mode==='system'?'跟随本机系统':'深色模式';}));
+</script>
+</body></html>

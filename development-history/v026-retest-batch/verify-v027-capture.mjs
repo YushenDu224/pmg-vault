@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {unpack} from './versions/v027-ascii-identity/lib/archive.mjs';
+const root=import.meta.dirname;
+const state=JSON.parse(await fs.readFile(path.join(root,'app-session-v027/collector-state.json'),'utf8'));
+if(state.state!=='saved')throw Error('Capture is not saved');
+const record=await unpack(new Uint8Array(await fs.readFile(path.join(root,'app-session-v027/inbox',state.archiveId+'.pmgx'))));
+const raw=record.manifest.resources.find(r=>r.role==='raw');
+const rawFields=raw?JSON.parse(Buffer.from(new Map(record.files).get(raw.path)).toString('utf8')):[];
+const report={createdAt:new Date().toISOString(),sourceVersion:'v027-ascii-identity',appVersion:'0.18.1-preview.2',site:state.query?.site,cert:record.note.certificationNumber,grade:record.note.grade?.display,phase:state.phase,captureStatus:state.captureStatus,archiveHashVerified:true,rawFieldCount:rawFields.length,originals:record.manifest.resources.filter(r=>r.role==='original').map(r=>({bytes:r.bytes,width:r.width,height:r.height,sha256:r.sha256})),roles:record.manifest.resources.map(r=>r.role),captureFailures:record.manifest.captures.flatMap(c=>c.failures||[])};
+await fs.writeFile(path.join(root,'reports/v027-success.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));

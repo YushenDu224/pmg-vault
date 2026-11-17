@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-11-16T23:49:32.198Z",
+  "from": "v025-browser-compat",
+  "to": "v027-ascii-identity",
+  "copiedFiles": 62,
+  "codeChanges": [
+    {
+      "path": "desktop/main.cjs",
+      "before": "app.setName('PMG库')",
+      "after": "app.setName('pmg-library')"
+    }
+  ],
+  "packageVersionUnchanged": true,
+  "noLinks": true,
+  "oldSealNotCopied": true
+}

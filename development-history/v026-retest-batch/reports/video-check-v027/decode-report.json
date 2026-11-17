@@ -1,0 +1,73 @@
+{
+  "purpose": "Offline inspection of an existing recording; not a new capture",
+  "source": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-retest-v026\\recording-v027\\pmg-app.webm",
+  "sourceBytes": 1519720,
+  "sourceSHA256Before": "6bef4ec92d9e560579bea0dbf40d1f07f52f898ca9a840e6f9e3ec7f1e616fbe",
+  "sourceSHA256After": "6bef4ec92d9e560579bea0dbf40d1f07f52f898ca9a840e6f9e3ec7f1e616fbe",
+  "originalUnchanged": true,
+  "decodedAt": "2026-11-16T23:58:18.589Z",
+  "metadata": {
+    "initialDuration": "Infinity",
+    "durationAfterIndexing": 119.454,
+    "endSeekTime": 119.454,
+    "width": 1876,
+    "height": 1250,
+    "seekable": [
+      [
+        0,
+        119.454
+      ]
+    ],
+    "buffered": [
+      [
+        0,
+        119.454
+      ]
+    ],
+    "readyState": 4,
+    "networkState": 1,
+    "decodedVideoFrames": 304,
+    "droppedVideoFrames": 0,
+    "canPlayVP8WebM": "probably",
+    "autoplayUsed": false,
+    "audioPlayed": false
+  },
+  "frames": [
+    {
+      "requestedTime": 40,
+      "decodedTime": 40,
+      "width": 1876,
+      "height": 1250,
+      "bytes": 566432,
+      "sha256": "758e8a14fb58d7719bae4137fa3a39e4609fef56841308de0122065d56e94161",
+      "file": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-retest-v026\\reports\\video-check-v027\\frame-040s.png"
+    },
+    {
+      "requestedTime": 55,
+      "decodedTime": 55,
+      "width": 1876,
+      "height": 1250,
+      "bytes": 666338,
+      "sha256": "c00a247f5ac6be76a7de760d7a004f0f7919e13118498937ab64f452718aaf14",
+      "file": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-retest-v026\\reports\\video-check-v027\\frame-055s.png"
+    },
+    {
+      "requestedTime": 70,
+      "decodedTime": 70,
+      "width": 1876,
+      "height": 1250,
+      "bytes": 916433,
+      "sha256": "ee2b772d5b8b5594a64fb837f981ba517c19ed21ef802d211007e81042f70f9a",
+      "file": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-retest-v026\\reports\\video-check-v027\\frame-070s.png"
+    },
+    {
+      "requestedTime": 100,
+      "decodedTime": 100,
+      "width": 1876,
+      "height": 1250,
+      "bytes": 916105,
+      "sha256": "a68b26f6d145907685b44cd1b6e949c97fe762b8915b7c8e0b31ebac179161b1",
+      "file": "C:\\Users\\John\\Documents\\Codex\\2026-11-17\\pmg-retest-v026\\reports\\video-check-v027\\frame-100s.png"
+    }
+  ]
+}

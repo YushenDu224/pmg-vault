@@ -1,0 +1,12 @@
+{
+  "createdAt": "2026-11-17T00:16:00.806Z",
+  "sourceVersion": "v028-state-sync",
+  "sourceFiles": 68,
+  "releaseSource": "v029-windows-preview",
+  "oldVersion": "0.18.1-preview.2",
+  "version": "0.18.2-preview.1",
+  "prerelease": true,
+  "lockUpdated": [],
+  "pnpmLock": "v9 dependency lock has no root application version; dependency graph retained byte-for-byte",
+  "oldSourcesUnchanged": true
+}

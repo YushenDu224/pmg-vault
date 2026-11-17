@@ -1,0 +1,71 @@
+{
+  "label": "02-reviewed",
+  "createdAt": "2026-11-16T23:13:41.868Z",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 9106,
+      "sha256": "abe43cc994153a9baae21d0fe26feabda508357d2d8791b4765acb4d82f48e23"
+    },
+    {
+      "path": "serve-review.mjs",
+      "bytes": 1426,
+      "sha256": "1d23fa06eaf6cb6b4eb9badd58aa030400c3229f8dbb6edc966809cb0fe1bd34"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2815,
+      "sha256": "d4e184c540016aa111b01fd59db62ad7ff309ae8ebd1d72f5172a2d99918a5c7"
+    },
+    {
+      "path": "platform-notes.md",
+      "bytes": 6979,
+      "sha256": "c2ad9ec3107c3313b303b63380e2543c421c79bb5390e465665929cce0722c18"
+    },
+    {
+      "path": "scripts/check-preview.mjs",
+      "bytes": 536,
+      "sha256": "4343eaf09838ef29aa2c693b96e2960490b2a62ffa7b5b898dd2c5885a6e7ab3"
+    },
+    {
+      "path": "android-preview/index.html",
+      "bytes": 9022,
+      "sha256": "d2a1537a1b2b4420054a9a6dc6e16381cb7758af023396ff8fc064811f61e9b6"
+    },
+    {
+      "path": "android-preview/app.mjs",
+      "bytes": 16139,
+      "sha256": "e7c44143d30d759d449c745bca2bf2d63414433cfcef0d8c4a88ae1cdf8ae3bc"
+    },
+    {
+      "path": "android-preview/style.css",
+      "bytes": 16928,
+      "sha256": "33471dba717692bef8f8ab3007d1948c4ddd1ed41d3d455d11cb8c8b72db067a"
+    },
+    {
+      "path": "android-preview/layout-v024.css",
+      "bytes": 6298,
+      "sha256": "47d0d10234eebd55a47f5fe962af747ce62f18c1e5d875316761bac4640d9337"
+    },
+    {
+      "path": "previews/windows-preserved.png",
+      "bytes": 148671,
+      "sha256": "c243e23771ec73c624ef2ba0b2bd76a420a13d977b41027c048c969f8f3605b8"
+    },
+    {
+      "path": "android-preview/assets/back.jpg",
+      "bytes": 703198,
+      "sha256": "cfc0f8214315d7cce35b52dfe0698578c850817c12bd3829f6ec190a67ff5a1b"
+    },
+    {
+      "path": "android-preview/assets/front.jpg",
+      "bytes": 681244,
+      "sha256": "558ef45f9908589dbf35965146fc8e1158b50e2136a69bf19e90e06976f7b88b"
+    },
+    {
+      "path": "android-preview/assets/pmg-logo.svg",
+      "bytes": 5752,
+      "sha256": "7d74f0edc94dbeddfd45a96cece2f5f2d3eb7b02a77fce71b3aa5123989b650c"
+    }
+  ]
+}

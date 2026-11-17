@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#053d22"><title>PMG库 · Android 界面预览</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="layout-v024.css"></head>
+<body>
+<div class="app">
+  <div class="status-space" aria-hidden="true"><span>9:41</span><svg class="system-indicators" viewBox="0 0 72 16"><path d="M2 13h3V9H2zm6 0h3V6H8zm6 0h3V3h-3z" fill="currentColor"/><path d="M24 5c5-4 11-4 16 0M27 8c3-3 7-3 10 0M30 11c1-1 3-1 4 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="32" cy="13" r="1" fill="currentColor"/><rect x="47" y="3" width="20" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="49" y="5" width="14" height="6" rx="1" fill="currentColor"/><path d="M69 6v4" stroke="currentColor" stroke-width="2"/></svg></div>
+  <header><div class="header-brand"><img src="assets/pmg-logo.svg" alt="PMG"><span>库</span></div><button id="more-top" class="icon-button" aria-label="打开更多">···</button></header>
+  <main id="main">
+    <section id="library-page" class="page">
+      <div class="page-title"><div><p class="eyebrow">我的钞票档案</p><h1>库</h1></div><button class="primary" id="add-note">＋ 查询钞票</button></div>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索评级号码、名称、冠字号" aria-label="搜索藏品"></label>
+      <div class="toolbar"><button id="filter-button">筛选 <span aria-hidden="true">≡</span></button><button id="sort-button">年份降序 ↓</button><span id="library-count">1 张藏品</span></div>
+      <div id="filter-panel" class="filter-panel" hidden><label>地区<select id="country"><option value="">全部地区</option><option>US</option><option>SWI</option></select></label><label>最低分<input id="minimum-grade" inputmode="numeric" type="number" min="1" max="70"></label><button id="reset-filter">重置</button></div>
+      <div id="library-results" class="masonry"></div>
+      <p class="local-note">以上为同一张公开样例的四种排版方案，点击可查看详情。</p>
+    </section>
+    <section id="query-page" class="page" hidden>
+      <div class="page-title query-title"><div><p class="eyebrow">PMG 认证信息</p><h1>查询与采集</h1></div></div>
+      <form id="query-form" class="query-form">
+        <div class="verify-title"><h2>检验PMG评级</h2><button type="button" id="verify-help">这是什么？</button></div>
+        <div class="query-inputs"><label>评级号码<input id="query-cert" value="8077301-001" inputmode="numeric" autocomplete="off" required></label><label class="grade-label">评分<select id="query-grade" required><option>67</option><option>66</option><option>65</option><option>64</option><option>63</option><option>58</option><option>25</option></select></label><button class="query-submit" type="submit">确定</button></div>
+        <label class="site-select">查询网站<select id="query-site"><option value="cn">中国网站</option><option value="global">全球网站</option></select></label>
+        <p class="query-demo-caption">界面预览 · 使用已保存的公开样例演示</p>
+      </form>
+      <div class="capture-heading"><span class="local-dot"></span><strong id="query-state">等待查询</strong><span class="demo-tag">流程演示</span></div>
+      <div class="official-window">
+        <div class="site-address"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 9V6a5 5 0 0 1 10 0v3M4 9h12v9H4z"/></svg><span id="site-address">www.pmgnotes.cn</span><button id="refresh-demo" class="icon-button" aria-label="重新预览"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16 6a7 7 0 1 0 1 6M16 2v5h-5"/></svg></button></div>
+        <div id="official-content" class="official-content"><img class="official-logo" src="assets/pmg-logo.svg" alt="PMG"><h2>官网将在这里打开</h2><p>在应用内核对评级信息，完成验证后继续采集。</p><small>当前为布局演示，展示已保存的官网样例。</small></div>
+      </div>
+      <div id="capture-result" class="capture-result" hidden><div class="result-heading"><h2>样例采集结果</h2><span class="complete-tag">演示完成</span></div><ul class="capture-progress"><li><span>认证详情</span><strong>已提供公开样例</strong></li><li><span>正反面原图</span><strong>2 张</strong></li><li><span>网页存档</span><strong>静态布局预览</strong></li></ul><button id="open-query-note">查看样例详情</button></div>
+      <div class="tip">原生应用中会保留官网交互，并在需要人机验证时等待你操作。</div>
+    </section>
+    <section id="more-page" class="page" hidden>
+      <div class="page-title"><div><p class="eyebrow">档案与设备</p><h1>更多</h1></div></div>
+      <label class="theme-setting">外观<select id="theme-mode"><option value="system">跟随系统</option><option value="light">浅色</option><option value="dark">深色</option></select></label>
+      <div class="more-list"><button data-info="import"><span class="menu-icon">↥</span><span><b>导入档案</b><small>PMGX 或整库 ZIP</small></span><span>›</span></button><button data-info="export"><span class="menu-icon">↧</span><span><b>导出整库</b><small>包含文字、原图与网页存档</small></span><span>›</span></button><button id="trash-open"><span class="menu-icon">♲</span><span><b>回收站</b><small id="trash-summary">暂无已删除藏品</small></span><span>›</span></button><button id="export-preview"><span class="menu-icon">⇩</span><span><b>导出界面预览设置</b><small>来源记录与展示组选择 · JSON</small></span><span>›</span></button></div>
+      <div class="about"><img src="assets/pmg-logo.svg" alt="PMG"><p>PMG库 · Android 设计预览</p><small>使用公开样例，可体验搜索、图片组和展示切换。</small></div>
+    </section>
+  </main>
+  <nav class="bottom-nav" aria-label="主导航"><button data-page="library" aria-current="page"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg><span>库</span></button><button data-page="query"><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg><span>查询与采集</span></button><button data-page="more"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span>更多</span></button></nav>
+</div>
+<dialog id="detail"><div class="sheet-handle"></div><div class="sheet-top"><div><small>PMG 认证档案</small><h2>8077301-001 <span class="grade-pill">67 EPQ</span></h2></div><button class="icon-button" id="close-detail" aria-label="关闭详情">×</button></div><div class="detail-scroll"><h3 class="note-name">Hawaii – WWII Emergency Issue</h3><p class="note-subtitle">US · $1 · 1935A</p><div class="detail-tabs" role="tablist"><button data-tab="images" role="tab" aria-selected="true">图片</button><button data-tab="info" role="tab" aria-selected="false">详情</button><button data-tab="archive" role="tab" aria-selected="false">网页存档</button><button data-tab="history" role="tab" aria-selected="false">历史</button></div><div id="detail-panel"></div><button class="delete-note" id="delete-note">移入回收站</button></div></dialog>
+<dialog id="group-editor"><div class="sheet-handle"></div><div class="sheet-top"><h2>添加图片组</h2><button class="icon-button" id="close-editor" aria-label="关闭图片组编辑">×</button></div><form id="group-form" class="editor-scroll"><label>图片组名称<input name="name" placeholder="例如：拍卖行图片" maxlength="100" required></label><div class="upload-pair"><label class="upload-tile">正面<input name="front" type="file" accept="image/jpeg,image/png,image/webp"><span data-preview="front">＋ 选择正面</span></label><label class="upload-tile">背面<input name="back" type="file" accept="image/jpeg,image/png,image/webp"><span data-preview="back">＋ 选择背面</span></label></div><label>来源名称<input name="source" placeholder="拍卖行、卖家或自己拍摄"></label><label>来源网址<input name="url" type="url" placeholder="https://" inputmode="url"></label><label>备注<textarea name="notes" rows="2" placeholder="记录这组图片的相关信息"></textarea></label><p id="group-error" role="alert" hidden></p><button class="primary" type="submit">保存图片组</button><small class="editor-tip">预览中的上传图片仅用于本次体验。</small></form></dialog>
+<dialog id="message-dialog"><h2 id="message-title"></h2><p id="message-content"></p><div id="message-actions"></div><button id="message-close">知道了</button></dialog>
+<div id="toast" role="status" hidden></div>
+<script type="module" src="app.mjs"></script>
+</body></html>

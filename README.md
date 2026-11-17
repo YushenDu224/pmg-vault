@@ -1,28 +1,28 @@
 # PMG库
 
-Windows 当前稳定版 **0.16.2（v020，沿用 v016 界面）**。取消文件导入大小、解压总量和整库张数的固定上限，按张读取 ZIP/ZIP64。实际容量取决于设备内存及磁盘。
+电脑当前安装版是 **Windows 0.18.0（v021）**。本次同时保存后续完整源码，提供 **Windows 0.18.2-preview.1（v029）** 测试安装包及 **Android 0.1.0-preview.1（v030）** 离线预览 APK。
 
-[下载安装包与全部历史源码](https://github.com/YushenDu224/pmg-vault/releases) · [当前版本](CURRENT.md) · [完整版本目录](VERSIONS.md) · [导入改动](versions/v020-unlimited-import/docs/UNLIMITED-IMPORT.md)
+| 下载 | 用途 | 状态 |
+| --- | --- | --- |
+| [Windows 0.18.0](https://github.com/YushenDu224/pmg-vault/releases/tag/v0.18.0) | 与当前电脑安装程序一致 | 保留已知官网验证限制 |
+| [Windows 0.18.2-preview.1](https://github.com/YushenDu224/pmg-vault/releases/tag/v0.18.2-preview.1) | 新窗口与采集状态修正 | 测试版，完整官网人工验收待完成 |
+| [Android 0.1.0-preview.1](https://github.com/YushenDu224/pmg-vault/releases/tag/android-v0.1.0-preview.1) | 双列界面、系统选图与图片组交互 | 可安装离线预览，尚非完整藏品应用 |
 
-安装时可以自选目录，安装后直接运行，无需另装 Node.js。个人藏品独立保存在用户数据目录；更新和卸载配置不会主动清空资料库。升级前请先导出整库备份。
+[当前版本与验收边界](CURRENT.md) · [全部版本](VERSIONS.md) · [源码历史与排除说明](SOURCE-HISTORY.md) · [Windows 双包核验](WINDOWS-DELIVERY.md)
 
-侧边栏“查询与采集”打开独立的内嵌官网查询页；“库”提供搜索、筛选、排序、目录和详情。保留原图、详情文字、整页截图及网页存档，使用 PMGX 标准 ZIP 容器携带。
+Windows 安装向导可自选安装位置，自带运行环境。两个 Windows 包均未数字签名；预览版沿用资料库设计，安装前请导出整库备份。此次发布没有安装、覆盖现有程序或迁移私人资料。
 
-## 版本区分
+Windows 功能包括独立的查询与采集、库、逐字段搜索筛选排序、回收站、原图及网页存档、PMGX/整库备份，并在 v021 接入自己上传的正反面图片组、来源/网址与展示组选择。内嵌官网在部分 Cloudflare 流程仍可能反复验证；最新测试不能解释为该问题已全部解决。
 
-- **0.16.2 / v020**：当前 Windows 稳定版，25 项测试通过；约 148 MiB 实际整库导入、重复导入去重和资源哈希验证通过。
-- **0.16.1 / v019**：初始 Windows 安装版，可用于回档。
-- **v016**：稳定界面与功能基线。
-- **v017**：新功能 UI 设计第一版，**已废除，仅供回档**。
-- **v018**：新功能 UI 设计第二版，**预览方案，尚未接入正式藏品库**。
+**安卓范围：** v030 将 v025 交互稿封装为独立 APK，保留双列自然高度目录、完整图片预览、深浅主题、系统选图、来源/网址、图片组切换与样例查询。实时官网自动采集、PMGX/整库导入导出尚未接入；上传组仅本次内存体验，设置 JSON 不是图片备份。尚未完成小米 15 实机验收。详见 [Android 源码说明](versions/v030-android-preview/README.md)。
 
-v017/v018 保留在 [codex/image-groups-preview](https://github.com/YushenDu224/pmg-vault/tree/codex/image-groups-preview) 分支；完整 v001—v020 源码包也包含这两份设计，附状态说明。
+## 源码与回档
 
-## 开发与回档
+每次修改保留完整目录副本和封存记录，版本目录是开发序号，不能直接当作应用版本号。v017 是新图片组 UI 第一版，已废除；v018 是第二版预览；v022 是已废除的整体现代化 UI 实验。v024 为 Android 网页评审批次，v026 为重测批次，均不是漏传的正式应用版本。
 
-完整源文件按版本目录保存，SEAL.json 记录文件字节数和 SHA-256。已封存版本不修改，继续开发前复制为新版本。开发环境 Node.js 22+、pnpm，详见 [Windows 构建说明](versions/v020-unlimited-import/README.md)。
+所有已存在的旧版本保留原字节。Android 各轮预览、修改前 checkpoints、构建与诊断脚本在 development-history。部分历史门户引用的屏幕画面仅留本机；保留代码和原封存清单，并在 SOURCE-HISTORY 标明缺少画面资产的边界。正式 Windows 版本源码按封存清单完整保存。
 
-个人藏品、自己上传的图片、浏览器会话、凭据、依赖缓存均不在仓库与发布包中。根目录公开 PMG 样例与版本内 examples/sample.pmgx 是同一个已核实的官网公开样例。
+仓库不包含个人藏品、私人上传图、浏览器会话、Cookie、凭据、测试签名私钥、依赖缓存或录屏。大安装包与完整源码 ZIP 从 Releases 下载。复建请使用各版本锁文件和说明。
 
 ## AI 辅助开发
 
