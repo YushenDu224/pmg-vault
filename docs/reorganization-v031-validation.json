@@ -1,0 +1,15 @@
+{
+  "baselineCommit": "2f0fb73ae9d3bcdfe3c8993bcc53c36be47fd946",
+  "originalFilesRetained": 1847,
+  "originalBytesUnchanged": true,
+  "windowsVersion": "0.18.0",
+  "windowsTestsPassed": 26,
+  "currentSourceFiles": 39,
+  "runtimeFilesUnchanged": 21,
+  "buildOutput": "dist/windows/win-unpacked",
+  "packagedFiles": 25,
+  "archiveOrAndroidPackaged": false,
+  "androidSourceCopiedWithoutChanges": true,
+  "installedApplicationModified": false,
+  "existingReleasesModified": false
+}

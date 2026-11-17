@@ -1,31 +1,35 @@
-node_modules/
-dist/
-build/
-coverage/
+# Dependencies, local build output and temporary working copies
+**/node_modules/
+**/.gradle/
+**/app/build/
+/dist/
+/work/
+/coverage/
+
+# Private data and local machine configuration
 .env
 .env.*
 !.env.example
+**/private/
+**/local.properties
+*.keystore
+*.jks
+*.p12
 *.log
 user-data/
 browser-profile/
 captures/
-*.pmgx
+**/app-session*/
+**/*profile*/
+**/recording*/
+**/decoder-runtime/
 *.sqlite*
 *.db
 .DS_Store
 Thumbs.db
 
-# 2026-11 source publication
-**/private/
-**/.gradle/
-**/local.properties
-**/*.keystore
-**/*.jks
-**/*.p12
-**/app-session*/
-**/*profile*/
-**/recording*/
-**/decoder-runtime/
-!versions/**/examples/sample.pmgx
-!versions/**/build/
-!versions/**/build/icon.ico
+# PMGX is user data except for explicitly retained public development fixtures.
+*.pmgx
+!/examples/sample.pmgx
+!archive/**/examples/sample.pmgx
+!archive/fixtures/PMG-8077301-001-public-sample.pmgx

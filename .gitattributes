@@ -1,3 +1,8 @@
 # Sealed version directories depend on exact source bytes.
 # Disable automatic line-ending normalization on checkout and commit.
 * -text
+
+# Archived full copies remain reviewable; count active sources in language stats.
+archive/** -linguist-detectable
+apps/android/checkpoints/** -linguist-detectable
+apps/android/source-ui/** -linguist-detectable

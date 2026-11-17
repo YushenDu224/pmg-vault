@@ -1,0 +1,23 @@
+{
+  "apk": "PMG-Library-Android-0.1.0-preview.1.apk",
+  "bytes": 1422662,
+  "sha256": "4bacfd292b6547d3cb0a044c76ead40f861019264d32dbb193dc334258aad4cb",
+  "packagedWebFiles": 9,
+  "packagedWebBytesMatch": true,
+  "originalPreviewFiles": 8,
+  "originalCheckpointMatches": true,
+  "androidPermissions": [],
+  "javascriptInterfacePresent": false,
+  "fakeStatusBarRemoved": true,
+  "previewScopeVisible": true,
+  "lintErrors": 0,
+  "lintWarnings": 4,
+  "lintWarningIds": [
+    "UnusedAttribute",
+    "SetJavaScriptEnabled",
+    "DataExtractionRules",
+    "MissingApplicationIcon"
+  ],
+  "deviceInstalled": false,
+  "deviceInteractionsTested": false
+}
